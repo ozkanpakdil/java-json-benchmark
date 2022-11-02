@@ -20,5 +20,3 @@ out/
 *.json
 !ami.json
 *.log
-
-output/*.txt
