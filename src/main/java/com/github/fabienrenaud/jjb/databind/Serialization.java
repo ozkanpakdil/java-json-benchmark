@@ -82,13 +82,13 @@ public class Serialization extends JsonBench {
         return b;
     }
 
-    @Benchmark
-    @Override
-    public Object boon() {
-        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
-        JSON_SOURCE().provider().boon().writeValue(baos, JSON_SOURCE().nextPojo());
-        return baos;
-    }
+//    @Benchmark
+//    @Override
+//    public Object boon() {
+//        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
+//        JSON_SOURCE().provider().boon().writeValue(baos, JSON_SOURCE().nextPojo());
+//        return baos;
+//    }
 
     @Benchmark
     @Override
@@ -162,12 +162,12 @@ public class Serialization extends JsonBench {
         return baos;
     }
 
-    @Benchmark
-    @Override
-    public Object jsoniter() throws Exception {
-        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
-        com.jsoniter.output.JsonStream.serialize(JSON_SOURCE().nextPojo(), baos);
-        return baos;
-    }
+//    @Benchmark
+//    @Override
+//    public Object jsoniter() throws Exception {
+//        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
+//        com.jsoniter.output.JsonStream.serialize(JSON_SOURCE().nextPojo(), baos);
+//        return baos;
+//    }
 
 }

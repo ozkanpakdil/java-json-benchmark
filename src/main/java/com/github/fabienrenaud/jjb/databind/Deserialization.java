@@ -67,11 +67,11 @@ public class Deserialization extends JsonBench {
         return JSON_SOURCE().provider().flexjsonDeser().deserialize(JSON_SOURCE().nextReader(), JSON_SOURCE().pojoType());
     }
 
-    @Benchmark
-    @Override
-    public Object boon() throws Exception {
-        return JSON_SOURCE().provider().boon().readValue(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
-    }
+//    @Benchmark
+//    @Override
+//    public Object boon() throws Exception {
+//        return JSON_SOURCE().provider().boon().readValue(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
+//    }
 
     @Benchmark
     @Override
@@ -131,10 +131,10 @@ public class Deserialization extends JsonBench {
         return JSON_SOURCE().provider().moshi().fromJson(JSON_SOURCE().nextOkioBufferedSource());
     }
 
-    @Benchmark
-    @Override
-    public Object jsoniter() throws Exception {
-        return com.jsoniter.JsonIterator.deserialize(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
-    }
+//    @Benchmark
+//    @Override
+//    public Object jsoniter() throws Exception {
+//        return com.jsoniter.JsonIterator.deserialize(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
+//    }
 
 }

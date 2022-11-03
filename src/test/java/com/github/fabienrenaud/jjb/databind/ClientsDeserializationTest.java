@@ -22,10 +22,10 @@ public class ClientsDeserializationTest extends JsonBenchmarkClientsTest {
         // FIXME: yasson fails on UUID
     }
 
-    @Override
-    public void boon() throws Exception {
-        // FIXME: does not support LocalDate
-    }
+//    @Override
+//    public void boon() throws Exception {
+//        // FIXME: does not support LocalDate
+//    }
 
     @Override
     public void genson() throws Exception {

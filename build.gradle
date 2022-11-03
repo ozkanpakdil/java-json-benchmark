@@ -56,7 +56,7 @@ dependencies {
     // json-io
     implementation group: 'com.cedarsoftware', name: 'json-io', version: '4.14.0'
     // boon
-    implementation group: 'io.fastjson', name: 'boon', version: '0.34'
+    //implementation group: 'io.fastjson', name: 'boon', version: '0.34'
     // johnzon
     implementation group: 'org.apache.johnzon', name: 'johnzon-core', version: "${johnzonVersion}"
     implementation group: 'org.apache.johnzon', name: 'johnzon-mapper', version: "${johnzonVersion}"
@@ -79,7 +79,7 @@ dependencies {
     // tapestry
     implementation group: 'org.apache.tapestry', name: 'tapestry-json', version: '5.8.2'
     // jsoniter
-    implementation group: 'com.jsoniter', name: 'jsoniter', version: '0.9.23'
+    //implementation group: 'com.jsoniter', name: 'jsoniter', version: '0.9.23'
     implementation group: 'org.javassist', name: 'javassist', version: '3.29.2-GA'
     // minimal-json
     implementation group: 'com.eclipsesource.minimal-json', name: 'minimal-json', version: '0.9.5'

@@ -34,7 +34,7 @@ public interface JsonProvider<T> {
 
     JSONSerializer flexjsonSer();
 
-    org.boon.json.ObjectMapper boon();
+//    org.boon.json.ObjectMapper boon();
 
     Mapper johnzon();
 
