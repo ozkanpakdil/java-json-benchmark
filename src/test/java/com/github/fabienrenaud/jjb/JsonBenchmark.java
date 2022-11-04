@@ -125,12 +125,12 @@ public abstract class JsonBenchmark<T> {
         }
     }
 
-    @Test
-    public void fastjson() throws Exception {
-        for (int i = 0; i < ITERATIONS; i++) {
-            test(Library.FASTJSON, BENCH.fastjson());
-        }
-    }
+//    @Test
+//    public void fastjson() throws Exception {
+//        for (int i = 0; i < ITERATIONS; i++) {
+//            test(Library.FASTJSON, BENCH.fastjson());
+//        }
+//    }
 
     @Test
     public void jsonio() throws Exception {

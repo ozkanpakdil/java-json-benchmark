@@ -1,6 +1,6 @@
 package com.github.fabienrenaud.jjb.databind;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
 import com.bluelinelabs.logansquare.LoganSquare;
 import com.github.fabienrenaud.jjb.JsonBench;
 import com.github.fabienrenaud.jjb.data.JsonSource;
@@ -8,6 +8,8 @@ import com.google.gson.JsonSyntaxException;
 import org.openjdk.jmh.annotations.Benchmark;
 
 import java.io.IOException;
+
+import static com.alibaba.fastjson.parser.Feature.AllowISO8601DateFormat;
 
 
 /**
@@ -55,11 +57,11 @@ public class Deserialization extends JsonBench {
         return JSON_SOURCE().provider().yasson().fromJson(JSON_SOURCE().nextReader(), JSON_SOURCE().pojoType());
     }
 
-    @Benchmark
-    @Override
-    public Object fastjson() {
-        return JSON.parseObject(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
-    }
+//    @Benchmark
+//    @Override
+//    public Object fastjson() {
+//        return JSON.parseObject(JSON_SOURCE().nextByteArray(), JSON_SOURCE().pojoType());
+//    }
 
     @Benchmark
     @Override

@@ -12,8 +12,6 @@ mainClassName = 'com.github.fabienrenaud.jjb.Cli'
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-applicationDefaultJvmArgs = ["--add-opens", "java.base/jdk.internal.loader=ALL-UNNAMED"]
-
 repositories {
     mavenLocal()
     mavenCentral()
@@ -116,7 +114,10 @@ test {
         showStandardStreams = true
     }
 }
-
+tasks.test {
+    // https://github.com/mockk/mockk/issues/681
+    jvmArgs("--add-opens", "java.base/java.time=ALL-UNNAMED")
+}
 task (depsize) {
     doLast {
         def size = 0

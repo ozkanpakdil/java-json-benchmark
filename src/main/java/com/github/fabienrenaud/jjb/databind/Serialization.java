@@ -1,7 +1,7 @@
 package com.github.fabienrenaud.jjb.databind;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.alibaba.fastjson2.JSON;
 import com.bluelinelabs.logansquare.LoganSquare;
 import com.github.fabienrenaud.jjb.JsonBench;
 import com.github.fabienrenaud.jjb.JsonUtils;
@@ -66,13 +66,13 @@ public class Serialization extends JsonBench {
         return baos;
     }
 
-    @Benchmark
-    @Override
-    public Object fastjson() throws Exception {
-        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
-        JSON.writeJSONString(baos, JSON_SOURCE().nextPojo(), SerializerFeature.EMPTY);
-        return baos;
-    }
+//    @Benchmark
+//    @Override
+//    public Object fastjson() throws Exception {
+//        ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
+//        JSON.writeTo(baos, JSON_SOURCE().nextPojo());
+//        return baos;
+//    }
 
     @Benchmark
     @Override

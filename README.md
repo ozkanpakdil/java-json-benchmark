@@ -9,7 +9,7 @@ It covers the following libraries:
 
 * [jackson](https://github.com/FasterXML/jackson)
 * [genson](https://owlike.github.io/genson/)
-* [fastjson](https://github.com/alibaba/fastjson)
+* [fastjson2](https://github.com/alibaba/fastjson2)
 * [gson](https://github.com/google/gson)
 * [org.json](https://github.com/stleary/JSON-java)
 * [javax-json](https://jsonp.java.net/) (from Oracle)
