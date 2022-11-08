@@ -18,7 +18,7 @@ repositories {
 }
 
 ext {
-    jacksonVersion = '2.13.4'
+    jacksonVersion = '2.14.0'
     dslJsonVersion = '1.9.9'
     johnzonVersion = '1.2.19'
     jmhVersion = '1.35'
@@ -50,7 +50,7 @@ dependencies {
     // FlexJson
     implementation group: 'net.sf.flexjson', name: 'flexjson', version: '3.3'
     // FastJson
-    implementation group: 'com.alibaba', name: 'fastjson', version: '2.0.17'
+    implementation group: 'com.alibaba', name: 'fastjson', version: '2.0.18'
     // json-io
     implementation group: 'com.cedarsoftware', name: 'json-io', version: '4.14.0'
     // boon
