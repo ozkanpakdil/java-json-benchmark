@@ -70,7 +70,7 @@ dependencies {
     // json-simple
     implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     // nanojson
-    implementation group: 'com.grack', name: 'nanojson', version: '1.7'
+    implementation group: 'com.grack', name: 'nanojson', version: '1.8'
     // jodd
     implementation group: 'org.jodd', name: 'jodd-json', version: '6.0.3'
     // moshi
