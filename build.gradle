@@ -60,7 +60,7 @@ dependencies {
     implementation group: 'org.apache.johnzon', name: 'johnzon-core', version: "${johnzonVersion}"
     implementation group: 'org.apache.johnzon', name: 'johnzon-mapper', version: "${johnzonVersion}"
     // json-smart
-    implementation group: 'net.minidev', name: 'json-smart', version: '2.4.8'
+    implementation group: 'net.minidev', name: 'json-smart', version: '2.4.10'
     // DSL-json
     implementation group: 'com.dslplatform', name: 'dsl-json-java8', version: "${dslJsonVersion}"
     annotationProcessor group: 'com.dslplatform', name: 'dsl-json-java8', version: "${dslJsonVersion}"
