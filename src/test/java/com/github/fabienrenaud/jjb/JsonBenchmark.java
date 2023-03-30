@@ -125,12 +125,12 @@ public abstract class JsonBenchmark<T> {
         }
     }
 
-//    @Test
-//    public void fastjson() throws Exception {
-//        for (int i = 0; i < ITERATIONS; i++) {
-//            test(Library.FASTJSON, BENCH.fastjson());
-//        }
-//    }
+    @Test
+    public void fastjson() throws Exception {
+        for (int i = 0; i < ITERATIONS; i++) {
+            test(Library.FASTJSON, BENCH.fastjson());
+        }
+    }
 
     @Test
     public void jsonio() throws Exception {
@@ -139,12 +139,12 @@ public abstract class JsonBenchmark<T> {
         }
     }
 
-//    @Test
-//    public void boon() throws Exception {
-//        for (int i = 0; i < ITERATIONS; i++) {
-//            test(Library.BOON, BENCH.boon());
-//        }
-//    }
+    @Test
+    public void boon() throws Exception {
+        for (int i = 0; i < ITERATIONS; i++) {
+            test(Library.BOON, BENCH.boon());
+        }
+    }
 
     @Test
     public void johnzon() throws Exception {
@@ -229,13 +229,6 @@ public abstract class JsonBenchmark<T> {
             test(Library.TAPESTRY, BENCH.tapestry());
         }
     }
-
-//    @Test
-//    public void jsoniter() throws Exception {
-//        for (int i = 0; i < ITERATIONS; i++) {
-//            test(Library.JSONITER, BENCH.jsoniter());
-//        }
-//    }
 
     @Test
     public void minimaljson() throws Exception {
