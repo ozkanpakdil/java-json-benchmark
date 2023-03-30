@@ -459,3 +459,76 @@
   gtag('js', new Date());
   gtag('config', 'UA-77642-34');
 </script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+      google.charts.load('current', {
+        packages: ['corechart'],
+        callback: drawChart
+      });
+      const chartOptions = {
+        width: 1000,
+        height: 600,
+        annotations: {
+          textStyle: {
+            fontName: 'Times-Roman',
+            fontSize: 10,
+            bold: false,
+            italic: false,
+            // The color of the text.
+            color: '#871b47',
+            // The color of the text outline.
+            auraColor: '#d799ae',
+            // The transparency of the text.
+            opacity: 0.8
+          }
+        }
+      };
+
+      function drawChart() {
+        var tableRows = [];
+        var results = document.getElementsByTagName('table');
+        for (const table of results) {
+          if (table.rows.length === 31) {
+            Array.prototype.forEach.call(table.rows, function (row) {
+              var tableColumns = [];
+              Array.prototype.forEach.call(row.cells, function (cell) {
+                var cellText = cell.textContent || cell.innerText;
+                if (cell.cellIndex === 0 || cell.cellIndex === 3)
+                  switch (cell.cellIndex) {
+                    case 0:
+                      tableColumns.push(cellText.trim());
+                      break;
+
+                    default:
+                      switch (row.rowIndex) {
+                        case 0:
+                          tableColumns.push(cellText.trim());
+                          break;
+
+                        default:
+                          tableColumns.push(parseFloat(cellText));
+                      }
+                  }
+              });
+              tableRows.push(tableColumns);
+            });
+            var data = google.visualization.arrayToDataTable(tableRows);
+            const newDiv = document.createElement("div");
+
+            var chart = new google.visualization.ColumnChart(newDiv);
+            chart.draw(data, chartOptions);
+            table.prepend(newDiv);
+          }
+        }
+      }
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77642-34"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-77642-34');
+</script>
