@@ -32,32 +32,29 @@ public final class Cli {
 
     public static void main(String[] args) throws RunnerException {
         CliBuilder<Runnable> builder = io.airlift.airline.Cli.<Runnable>builder("bench")
-                .withDescription("Benchmark JSON libraries")
-                .withDefaultCommand(Help.class)
-                .withCommands(Help.class, InfoCommand.class, SerializationCommand.class, DeserializationCommand.class);
+            .withDescription("Benchmark JSON libraries")
+            .withDefaultCommand(Help.class)
+            .withCommands(Help.class, InfoCommand.class, SerializationCommand.class, DeserializationCommand.class);
 
         io.airlift.airline.Cli<Runnable> gitParser = builder.build();
         gitParser.parse(args).run();
     }
 
     @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "mode")
-    @JsonSubTypes({
-            @JsonSubTypes.Type(value = DeserializationCommand.class, name = "Deserialization"),
-            @JsonSubTypes.Type(value = SerializationCommand.class, name = "Serialization")
-    })
+    @JsonSubTypes({@JsonSubTypes.Type(value = DeserializationCommand.class, name = "Deserialization"), @JsonSubTypes.Type(value = SerializationCommand.class, name = "Serialization")})
     public static abstract class AbstractCommand implements Runnable {
 
         /*
          * JMH options
          */
         @Option(type = OptionType.GLOBAL, name = "-f", description = "JMH: forks. Defaults to 2.")
-        public int forks = 1;
-        @Option(type = OptionType.GLOBAL, name = "-wi", description = "JMH: warmup iterations. Defaults to 1.")
-        public int warmupIterations = 1;
-        @Option(type = OptionType.GLOBAL, name = "-i", description = "JMH: measurement iterations. Defaults to 1.")
-        public int measurementIterations = 1;
-        @Option(type = OptionType.GLOBAL, name = "-m", description = "JMH: measurement time in seconds. Defaults to 2.")
-        public int measurementTime = 2;
+        public int forks = 2;
+        @Option(type = OptionType.GLOBAL, name = "-wi", description = "JMH: warmup iterations. Defaults to 5.")
+        public int warmupIterations = 5;
+        @Option(type = OptionType.GLOBAL, name = "-i", description = "JMH: measurement iterations. Defaults to 10.")
+        public int measurementIterations = 10;
+        @Option(type = OptionType.GLOBAL, name = "-m", description = "JMH: measurement time in seconds. Defaults to 3.")
+        public int measurementTime = 3;
         @Option(type = OptionType.GLOBAL, name = "-t", description = "JMH: number of threads. Defaults to 16.")
         public int threads = 16;
 
@@ -91,11 +88,11 @@ public final class Cli {
             }
 
             ChainedOptionsBuilder b = new OptionsBuilder()
-                    .forks(forks)
-                    .warmupIterations(warmupIterations)
-                    .measurementIterations(measurementIterations)
-                    .measurementTime(new TimeValue(measurementTime, TimeUnit.SECONDS))
-                    .threads(threads);
+                .forks(forks)
+                .warmupIterations(warmupIterations)
+                .measurementIterations(measurementIterations)
+                .measurementTime(new TimeValue(measurementTime, TimeUnit.SECONDS))
+                .threads(threads);
 //                .addProfiler(StackProfiler.class);
 
             List<String> includes = includes();

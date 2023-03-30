@@ -20,9 +20,9 @@ public class UsersDeserializationTest extends JsonBenchmarkUsersTest {
         }, Api.DATABIND);
     }
 
-//    @Override
-//    public void boon() throws Exception {
-//        // FIXME: null collection
-//    }
+    @Override
+    public void boon() throws Exception {
+        // FIXME: null collection
+    }
 
 }

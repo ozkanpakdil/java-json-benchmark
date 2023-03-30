@@ -20,9 +20,9 @@ public class UsersSerializationTest extends JsonBenchmarkUsersTest {
         }, Api.DATABIND);
     }
 
-//    @Override
-//    public void boon() throws Exception {
-//        // FIXME: boon turns empty list to null values which makes this test fail.
-//    }
+    @Override
+    public void boon() throws Exception {
+        // FIXME: boon turns empty list to null values which makes this test fail.
+    }
 
 }

@@ -22,10 +22,10 @@ public class ClientsSerializationTest extends JsonBenchmarkClientsTest {
         // FIXME: yasson fails on UUID
     }
 
-//    @Override
-//    public void boon() throws Exception {
-//        // FIXME: null collection
-//    }
+    @Override
+    public void boon() throws Exception {
+        // FIXME: null collection
+    }
 
     @Override
     public void genson() throws Exception {

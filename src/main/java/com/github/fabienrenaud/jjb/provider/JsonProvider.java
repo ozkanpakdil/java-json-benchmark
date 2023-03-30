@@ -9,7 +9,8 @@ import flexjson.JSONDeserializer;
 import flexjson.JSONSerializer;
 import io.quarkus.qson.generator.QsonMapper;
 import org.apache.johnzon.mapper.Mapper;
-import org.eclipse.yasson.YassonJsonb;
+
+import javax.json.bind.Jsonb;
 
 import java.util.Map;
 
@@ -29,13 +30,13 @@ public interface JsonProvider<T> {
 
     Genson genson();
 
-    YassonJsonb yasson();
+    Jsonb yasson();
 
     JSONDeserializer<T> flexjsonDeser();
 
     JSONSerializer flexjsonSer();
 
-//    org.boon.json.ObjectMapper boon();
+    org.boon.json.ObjectMapper boon();
 
     Mapper johnzon();
 
