@@ -9,17 +9,17 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=3995638501208 | 
-| 156140.514 | ops/s |  |  |  |  | 
-| Iteration | 1: | 183415.898 | ops/s |  |  | 
-| Iteration | 2: | 207861.448 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=3892385866107 | 
+| 92051.097 | ops/s |  |  |  |  | 
+| Iteration | 1: | 126061.618 | ops/s |  |  | 
+| Iteration | 2: | 144193.319 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 195638.673 | ops/s |  |  |  |  | 
+| 135127.468 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
-| # | Run | complete. | Total | time: | 00:03:04 | 
+| # | Run | complete. | Total | time: | 00:03:03 | 
 |  |  |  |  |  |  | 
 | REMEMBER: | The | numbers | below | are | just | 
 | why | the | numbers | are | the | way | 
@@ -35,20 +35,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Deserialization.avajejsonb | thrpt | 2 | 231227.044 | ops/s |  | 
-| Deserialization.avajejsonb_jackson | thrpt | 2 | 270113.611 | ops/s |  | 
-| Deserialization.dsljson | thrpt | 2 | 520260.576 | ops/s |  | 
-| Deserialization.dsljson_reflection | thrpt | 2 | 244910.095 | ops/s |  | 
-| Deserialization.fastjson | thrpt | 2 | 132598.935 | ops/s |  | 
-| Deserialization.flexjson | thrpt | 2 | 20384.435 | ops/s |  | 
-| Deserialization.genson | thrpt | 2 | 84587.303 | ops/s |  | 
-| Deserialization.gson | thrpt | 2 | 137645.432 | ops/s |  | 
-| Deserialization.jackson | thrpt | 2 | 263444.119 | ops/s |  | 
-| Deserialization.jackson_afterburner | thrpt | 2 | 304335.086 | ops/s |  | 
-| Deserialization.jackson_blackbird | thrpt | 2 | 148334.856 | ops/s |  | 
-| Deserialization.jodd | thrpt | 2 | 96248.292 | ops/s |  | 
-| Deserialization.logansquare | thrpt | 2 | 156052.137 | ops/s |  | 
-| Deserialization.moshi | thrpt | 2 | 195638.673 | ops/s |  | 
+| Deserialization.avajejsonb | thrpt | 2 | 221448.101 | ops/s |  | 
+| Deserialization.avajejsonb_jackson | thrpt | 2 | 152466.358 | ops/s |  | 
+| Deserialization.dsljson | thrpt | 2 | 549074.479 | ops/s |  | 
+| Deserialization.dsljson_reflection | thrpt | 2 | 479499.985 | ops/s |  | 
+| Deserialization.fastjson | thrpt | 2 | 15875.943 | ops/s |  | 
+| Deserialization.flexjson | thrpt | 2 | 32459.104 | ops/s |  | 
+| Deserialization.genson | thrpt | 2 | 95813.300 | ops/s |  | 
+| Deserialization.gson | thrpt | 2 | 122096.543 | ops/s |  | 
+| Deserialization.jackson | thrpt | 2 | 162540.483 | ops/s |  | 
+| Deserialization.jackson_afterburner | thrpt | 2 | 298251.256 | ops/s |  | 
+| Deserialization.jackson_blackbird | thrpt | 2 | 296311.786 | ops/s |  | 
+| Deserialization.jodd | thrpt | 2 | 184327.913 | ops/s |  | 
+| Deserialization.logansquare | thrpt | 2 | 167980.579 | ops/s |  | 
+| Deserialization.moshi | thrpt | 2 | 135127.468 | ops/s |  | 
 
 ## JMH: Deserialization - 10 KB
 
@@ -57,14 +57,14 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=4366920234028 | 
-| 5011.011 | ops/s |  |  |  |  | 
-| Iteration | 1: | 8631.532 | ops/s |  |  | 
-| Iteration | 2: | 8928.048 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=4261749455978 | 
+| 4829.640 | ops/s |  |  |  |  | 
+| Iteration | 1: | 8673.081 | ops/s |  |  | 
+| Iteration | 2: | 9085.099 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 8779.790 | ops/s |  |  |  |  | 
+| 8879.090 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | # | Run | complete. | Total | time: | 00:03:04 | 
@@ -83,20 +83,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Deserialization.avajejsonb | thrpt | 2 | 13457.529 | ops/s |  | 
-| Deserialization.avajejsonb_jackson | thrpt | 2 | 7586.615 | ops/s |  | 
-| Deserialization.dsljson | thrpt | 2 | 52665.050 | ops/s |  | 
-| Deserialization.dsljson_reflection | thrpt | 2 | 41804.293 | ops/s |  | 
-| Deserialization.fastjson | thrpt | 2 | 6097.950 | ops/s |  | 
-| Deserialization.flexjson | thrpt | 2 | 2045.780 | ops/s |  | 
-| Deserialization.genson | thrpt | 2 | 8524.632 | ops/s |  | 
-| Deserialization.gson | thrpt | 2 | 9281.894 | ops/s |  | 
-| Deserialization.jackson | thrpt | 2 | 7166.308 | ops/s |  | 
-| Deserialization.jackson_afterburner | thrpt | 2 | 7878.198 | ops/s |  | 
-| Deserialization.jackson_blackbird | thrpt | 2 | 7012.066 | ops/s |  | 
-| Deserialization.jodd | thrpt | 2 | 8198.739 | ops/s |  | 
-| Deserialization.logansquare | thrpt | 2 | 7144.664 | ops/s |  | 
-| Deserialization.moshi | thrpt | 2 | 8779.790 | ops/s |  | 
+| Deserialization.avajejsonb | thrpt | 2 | 11658.992 | ops/s |  | 
+| Deserialization.avajejsonb_jackson | thrpt | 2 | 11603.776 | ops/s |  | 
+| Deserialization.dsljson | thrpt | 2 | 56694.438 | ops/s |  | 
+| Deserialization.dsljson_reflection | thrpt | 2 | 44113.175 | ops/s |  | 
+| Deserialization.fastjson | thrpt | 2 | 4109.082 | ops/s |  | 
+| Deserialization.flexjson | thrpt | 2 | 2618.046 | ops/s |  | 
+| Deserialization.genson | thrpt | 2 | 7989.336 | ops/s |  | 
+| Deserialization.gson | thrpt | 2 | 9016.159 | ops/s |  | 
+| Deserialization.jackson | thrpt | 2 | 6844.033 | ops/s |  | 
+| Deserialization.jackson_afterburner | thrpt | 2 | 8110.036 | ops/s |  | 
+| Deserialization.jackson_blackbird | thrpt | 2 | 8094.867 | ops/s |  | 
+| Deserialization.jodd | thrpt | 2 | 8228.568 | ops/s |  | 
+| Deserialization.logansquare | thrpt | 2 | 8287.580 | ops/s |  | 
+| Deserialization.moshi | thrpt | 2 | 8879.090 | ops/s |  | 
 
 ## JMH: Deserialization - 100 KB
 
@@ -105,17 +105,17 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=4740469006830 | 
-| 497.910 | ops/s |  |  |  |  | 
-| Iteration | 1: | 844.673 | ops/s |  |  | 
-| Iteration | 2: | 824.380 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=4633082976372 | 
+| 382.417 | ops/s |  |  |  |  | 
+| Iteration | 1: | 794.836 | ops/s |  |  | 
+| Iteration | 2: | 843.829 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 834.527 | ops/s |  |  |  |  | 
+| 819.333 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
-| # | Run | complete. | Total | time: | 00:03:06 | 
+| # | Run | complete. | Total | time: | 00:03:04 | 
 |  |  |  |  |  |  | 
 | REMEMBER: | The | numbers | below | are | just | 
 | why | the | numbers | are | the | way | 
@@ -131,20 +131,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Deserialization.avajejsonb | thrpt | 2 | 1088.045 | ops/s |  | 
-| Deserialization.avajejsonb_jackson | thrpt | 2 | 918.708 | ops/s |  | 
-| Deserialization.dsljson | thrpt | 2 | 5311.984 | ops/s |  | 
-| Deserialization.dsljson_reflection | thrpt | 2 | 4208.125 | ops/s |  | 
-| Deserialization.fastjson | thrpt | 2 | 631.319 | ops/s |  | 
-| Deserialization.flexjson | thrpt | 2 | 223.769 | ops/s |  | 
-| Deserialization.genson | thrpt | 2 | 946.449 | ops/s |  | 
-| Deserialization.gson | thrpt | 2 | 915.046 | ops/s |  | 
-| Deserialization.jackson | thrpt | 2 | 771.360 | ops/s |  | 
-| Deserialization.jackson_afterburner | thrpt | 2 | 807.431 | ops/s |  | 
-| Deserialization.jackson_blackbird | thrpt | 2 | 860.976 | ops/s |  | 
-| Deserialization.jodd | thrpt | 2 | 810.212 | ops/s |  | 
-| Deserialization.logansquare | thrpt | 2 | 547.175 | ops/s |  | 
-| Deserialization.moshi | thrpt | 2 | 834.527 | ops/s |  | 
+| Deserialization.avajejsonb | thrpt | 2 | 1172.884 | ops/s |  | 
+| Deserialization.avajejsonb_jackson | thrpt | 2 | 690.738 | ops/s |  | 
+| Deserialization.dsljson | thrpt | 2 | 5480.145 | ops/s |  | 
+| Deserialization.dsljson_reflection | thrpt | 2 | 4299.181 | ops/s |  | 
+| Deserialization.fastjson | thrpt | 2 | 773.803 | ops/s |  | 
+| Deserialization.flexjson | thrpt | 2 | 246.285 | ops/s |  | 
+| Deserialization.genson | thrpt | 2 | 900.786 | ops/s |  | 
+| Deserialization.gson | thrpt | 2 | 912.909 | ops/s |  | 
+| Deserialization.jackson | thrpt | 2 | 788.008 | ops/s |  | 
+| Deserialization.jackson_afterburner | thrpt | 2 | 774.717 | ops/s |  | 
+| Deserialization.jackson_blackbird | thrpt | 2 | 908.198 | ops/s |  | 
+| Deserialization.jodd | thrpt | 2 | 839.799 | ops/s |  | 
+| Deserialization.logansquare | thrpt | 2 | 546.324 | ops/s |  | 
+| Deserialization.moshi | thrpt | 2 | 819.333 | ops/s |  | 
 
 ## JMH: Deserialization - 1000 KB
 
@@ -153,17 +153,17 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=5127381013176 | 
-| 34.670 | ops/s |  |  |  |  | 
-| Iteration | 1: | 74.563 | ops/s |  |  | 
-| Iteration | 2: | 79.563 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=5017430726685 | 
+| 41.805 | ops/s |  |  |  |  | 
+| Iteration | 1: | 62.075 | ops/s |  |  | 
+| Iteration | 2: | 68.237 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 77.063 | ops/s |  |  |  |  | 
+| 65.156 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
-| # | Run | complete. | Total | time: | 00:03:14 | 
+| # | Run | complete. | Total | time: | 00:03:13 | 
 |  |  |  |  |  |  | 
 | REMEMBER: | The | numbers | below | are | just | 
 | why | the | numbers | are | the | way | 
@@ -179,20 +179,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Deserialization.avajejsonb | thrpt | 2 | 105.193 | ops/s |  | 
-| Deserialization.avajejsonb_jackson | thrpt | 2 | 47.814 | ops/s |  | 
-| Deserialization.dsljson | thrpt | 2 | 544.338 | ops/s |  | 
-| Deserialization.dsljson_reflection | thrpt | 2 | 410.274 | ops/s |  | 
-| Deserialization.fastjson | thrpt | 2 | 71.163 | ops/s |  | 
-| Deserialization.flexjson | thrpt | 2 | 22.678 | ops/s |  | 
-| Deserialization.genson | thrpt | 2 | 91.419 | ops/s |  | 
-| Deserialization.gson | thrpt | 2 | 77.807 | ops/s |  | 
-| Deserialization.jackson | thrpt | 2 | 46.952 | ops/s |  | 
-| Deserialization.jackson_afterburner | thrpt | 2 | 68.704 | ops/s |  | 
-| Deserialization.jackson_blackbird | thrpt | 2 | 74.815 | ops/s |  | 
-| Deserialization.jodd | thrpt | 2 | 76.906 | ops/s |  | 
-| Deserialization.logansquare | thrpt | 2 | 49.334 | ops/s |  | 
-| Deserialization.moshi | thrpt | 2 | 77.063 | ops/s |  | 
+| Deserialization.avajejsonb | thrpt | 2 | 113.967 | ops/s |  | 
+| Deserialization.avajejsonb_jackson | thrpt | 2 | 90.626 | ops/s |  | 
+| Deserialization.dsljson | thrpt | 2 | 553.836 | ops/s |  | 
+| Deserialization.dsljson_reflection | thrpt | 2 | 430.563 | ops/s |  | 
+| Deserialization.fastjson | thrpt | 2 | 78.622 | ops/s |  | 
+| Deserialization.flexjson | thrpt | 2 | 25.602 | ops/s |  | 
+| Deserialization.genson | thrpt | 2 | 93.718 | ops/s |  | 
+| Deserialization.gson | thrpt | 2 | 85.467 | ops/s |  | 
+| Deserialization.jackson | thrpt | 2 | 56.829 | ops/s |  | 
+| Deserialization.jackson_afterburner | thrpt | 2 | 77.407 | ops/s |  | 
+| Deserialization.jackson_blackbird | thrpt | 2 | 88.945 | ops/s |  | 
+| Deserialization.jodd | thrpt | 2 | 84.462 | ops/s |  | 
+| Deserialization.logansquare | thrpt | 2 | 59.846 | ops/s |  | 
+| Deserialization.moshi | thrpt | 2 | 65.156 | ops/s |  | 
 
 ## JMH: Serialization - 1 KB
 
@@ -201,17 +201,17 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=3810605255855 | 
-| 147435.477 | ops/s |  |  |  |  | 
-| Iteration | 1: | 191845.774 | ops/s |  |  | 
-| Iteration | 2: | 210537.977 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=3707977162263 | 
+| 173321.779 | ops/s |  |  |  |  | 
+| Iteration | 1: | 192243.565 | ops/s |  |  | 
+| Iteration | 2: | 193590.502 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 201191.875 | ops/s |  |  |  |  | 
+| 192917.034 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
-| # | Run | complete. | Total | time: | 00:03:04 | 
+| # | Run | complete. | Total | time: | 00:03:03 | 
 |  |  |  |  |  |  | 
 | REMEMBER: | The | numbers | below | are | just | 
 | why | the | numbers | are | the | way | 
@@ -227,20 +227,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Serialization.avajejsonb | thrpt | 2 | 505059.191 | ops/s |  | 
-| Serialization.avajejsonb_jackson | thrpt | 2 | 321990.190 | ops/s |  | 
-| Serialization.dsljson | thrpt | 2 | 855382.947 | ops/s |  | 
-| Serialization.dsljson_reflection | thrpt | 2 | 600121.117 | ops/s |  | 
-| Serialization.fastjson | thrpt | 2 | 309340.398 | ops/s |  | 
-| Serialization.flexjson | thrpt | 2 | 670.576 | ops/s |  | 
-| Serialization.genson | thrpt | 2 | 235123.351 | ops/s |  | 
-| Serialization.gson | thrpt | 2 | 225894.364 | ops/s |  | 
-| Serialization.jackson | thrpt | 2 | 309373.778 | ops/s |  | 
-| Serialization.jackson_afterburner | thrpt | 2 | 490281.273 | ops/s |  | 
-| Serialization.jackson_blackbird | thrpt | 2 | 361456.391 | ops/s |  | 
-| Serialization.jodd | thrpt | 2 | 57973.877 | ops/s |  | 
-| Serialization.logansquare | thrpt | 2 | 416124.733 | ops/s |  | 
-| Serialization.moshi | thrpt | 2 | 201191.875 | ops/s |  | 
+| Serialization.avajejsonb | thrpt | 2 | 468617.911 | ops/s |  | 
+| Serialization.avajejsonb_jackson | thrpt | 2 | 305667.088 | ops/s |  | 
+| Serialization.dsljson | thrpt | 2 | 791791.188 | ops/s |  | 
+| Serialization.dsljson_reflection | thrpt | 2 | 639162.690 | ops/s |  | 
+| Serialization.fastjson | thrpt | 2 | 322395.440 | ops/s |  | 
+| Serialization.flexjson | thrpt | 2 | 632.171 | ops/s |  | 
+| Serialization.genson | thrpt | 2 | 251594.509 | ops/s |  | 
+| Serialization.gson | thrpt | 2 | 253647.810 | ops/s |  | 
+| Serialization.jackson | thrpt | 2 | 498151.731 | ops/s |  | 
+| Serialization.jackson_afterburner | thrpt | 2 | 497445.844 | ops/s |  | 
+| Serialization.jackson_blackbird | thrpt | 2 | 499357.948 | ops/s |  | 
+| Serialization.jodd | thrpt | 2 | 55443.785 | ops/s |  | 
+| Serialization.logansquare | thrpt | 2 | 334189.967 | ops/s |  | 
+| Serialization.moshi | thrpt | 2 | 192917.034 | ops/s |  | 
 
 ## JMH: Serialization - 10 KB
 
@@ -249,14 +249,62 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=4181304007781 | 
-| 7199.016 | ops/s |  |  |  |  | 
-| Iteration | 1: | 19212.239 | ops/s |  |  | 
-| Iteration | 2: | 18498.640 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=4076833440628 | 
+| 11804.595 | ops/s |  |  |  |  | 
+| Iteration | 1: | 19514.822 | ops/s |  |  | 
+| Iteration | 2: | 19128.302 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 18855.440 | ops/s |  |  |  |  | 
+| 19321.562 | ops/s |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+| # | Run | complete. | Total | time: | 00:03:03 | 
+|  |  |  |  |  |  | 
+| REMEMBER: | The | numbers | below | are | just | 
+| why | the | numbers | are | the | way | 
+| experiments, | perform | baseline | and | negative | tests | 
+| the | benchmarking | environment | is | safe | on | 
+| Do | not | assume | the | numbers | tell | 
+|  |  |  |  |  |  | 
+| NOTE: | Current | JVM | experimentally | supports | Compiler | 
+| extra | caution | when | trusting | the | results, | 
+| works, | and | factor | in | a | small | 
+| different | JVMs | are | already | problematic, | the | 
+| modes | can | be | very | significant. | Please | 
+|  |  |  |  |  |  | 
+| Benchmark | Mode | Cnt | Score | Error | Units | 
+|-----------|------|-----|-------|-------|-------|
+| Serialization.avajejsonb | thrpt | 2 | 36280.434 | ops/s |  | 
+| Serialization.avajejsonb_jackson | thrpt | 2 | 29944.235 | ops/s |  | 
+| Serialization.dsljson | thrpt | 2 | 99879.981 | ops/s |  | 
+| Serialization.dsljson_reflection | thrpt | 2 | 75230.545 | ops/s |  | 
+| Serialization.fastjson | thrpt | 2 | 23034.660 | ops/s |  | 
+| Serialization.flexjson | thrpt | 2 | 215.654 | ops/s |  | 
+| Serialization.genson | thrpt | 2 | 20496.443 | ops/s |  | 
+| Serialization.gson | thrpt | 2 | 22993.489 | ops/s |  | 
+| Serialization.jackson | thrpt | 2 | 25373.094 | ops/s |  | 
+| Serialization.jackson_afterburner | thrpt | 2 | 24612.963 | ops/s |  | 
+| Serialization.jackson_blackbird | thrpt | 2 | 24263.788 | ops/s |  | 
+| Serialization.jodd | thrpt | 2 | 5420.976 | ops/s |  | 
+| Serialization.logansquare | thrpt | 2 | 29149.561 | ops/s |  | 
+| Serialization.moshi | thrpt | 2 | 19321.562 | ops/s |  | 
+
+## JMH: Serialization - 100 KB
+
+| # | Benchmark | mode: | Throughput, | ops/time |  | 
+| moshi/databind |  |  |  | 
+|  |  |  |  |  |  | 
+| # | Run | progress: | 92.86% | complete, | ETA | 
+| # | Fork: | 1 | of | 1 |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=4447358466595 | 
+| 1077.815 | ops/s |  |  |  |  | 
+| Iteration | 1: | 1794.643 | ops/s |  |  | 
+| Iteration | 2: | 1843.681 | ops/s |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+| moshi/databind": |  |  |  |  | 
+| 1819.162 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | # | Run | complete. | Total | time: | 00:03:04 | 
@@ -275,68 +323,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Serialization.avajejsonb | thrpt | 2 | 31819.119 | ops/s |  | 
-| Serialization.avajejsonb_jackson | thrpt | 2 | 27271.724 | ops/s |  | 
-| Serialization.dsljson | thrpt | 2 | 99783.006 | ops/s |  | 
-| Serialization.dsljson_reflection | thrpt | 2 | 66745.538 | ops/s |  | 
-| Serialization.fastjson | thrpt | 2 | 21423.053 | ops/s |  | 
-| Serialization.flexjson | thrpt | 2 | 240.499 | ops/s |  | 
-| Serialization.genson | thrpt | 2 | 22303.610 | ops/s |  | 
-| Serialization.gson | thrpt | 2 | 20687.443 | ops/s |  | 
-| Serialization.jackson | thrpt | 2 | 24976.365 | ops/s |  | 
-| Serialization.jackson_afterburner | thrpt | 2 | 22556.411 | ops/s |  | 
-| Serialization.jackson_blackbird | thrpt | 2 | 21559.789 | ops/s |  | 
-| Serialization.jodd | thrpt | 2 | 5490.183 | ops/s |  | 
-| Serialization.logansquare | thrpt | 2 | 29339.473 | ops/s |  | 
-| Serialization.moshi | thrpt | 2 | 18855.440 | ops/s |  | 
-
-## JMH: Serialization - 100 KB
-
-| # | Benchmark | mode: | Throughput, | ops/time |  | 
-| moshi/databind |  |  |  | 
-|  |  |  |  |  |  | 
-| # | Run | progress: | 92.86% | complete, | ETA | 
-| # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=4553658361658 | 
-| 1128.335 | ops/s |  |  |  |  | 
-| Iteration | 1: | 1943.258 | ops/s |  |  | 
-| Iteration | 2: | 1892.807 | ops/s |  |  | 
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
-| moshi/databind": |  |  |  |  | 
-| 1918.032 | ops/s |  |  |  |  | 
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
-| # | Run | complete. | Total | time: | 00:03:05 | 
-|  |  |  |  |  |  | 
-| REMEMBER: | The | numbers | below | are | just | 
-| why | the | numbers | are | the | way | 
-| experiments, | perform | baseline | and | negative | tests | 
-| the | benchmarking | environment | is | safe | on | 
-| Do | not | assume | the | numbers | tell | 
-|  |  |  |  |  |  | 
-| NOTE: | Current | JVM | experimentally | supports | Compiler | 
-| extra | caution | when | trusting | the | results, | 
-| works, | and | factor | in | a | small | 
-| different | JVMs | are | already | problematic, | the | 
-| modes | can | be | very | significant. | Please | 
-|  |  |  |  |  |  | 
-| Benchmark | Mode | Cnt | Score | Error | Units | 
-|-----------|------|-----|-------|-------|-------|
-| Serialization.avajejsonb | thrpt | 2 | 3198.575 | ops/s |  | 
-| Serialization.avajejsonb_jackson | thrpt | 2 | 2956.394 | ops/s |  | 
-| Serialization.dsljson | thrpt | 2 | 9229.631 | ops/s |  | 
-| Serialization.dsljson_reflection | thrpt | 2 | 6973.976 | ops/s |  | 
-| Serialization.fastjson | thrpt | 2 | 1488.421 | ops/s |  | 
-| Serialization.flexjson | thrpt | 2 | 89.811 | ops/s |  | 
-| Serialization.genson | thrpt | 2 | 2255.794 | ops/s |  | 
-| Serialization.gson | thrpt | 2 | 2174.440 | ops/s |  | 
-| Serialization.jackson | thrpt | 2 | 2306.630 | ops/s |  | 
-| Serialization.jackson_afterburner | thrpt | 2 | 2272.063 | ops/s |  | 
-| Serialization.jackson_blackbird | thrpt | 2 | 2252.422 | ops/s |  | 
-| Serialization.jodd | thrpt | 2 | 568.823 | ops/s |  | 
-| Serialization.logansquare | thrpt | 2 | 3133.204 | ops/s |  | 
-| Serialization.moshi | thrpt | 2 | 1918.032 | ops/s |  | 
+| Serialization.avajejsonb | thrpt | 2 | 3173.980 | ops/s |  | 
+| Serialization.avajejsonb_jackson | thrpt | 2 | 2994.620 | ops/s |  | 
+| Serialization.dsljson | thrpt | 2 | 9554.661 | ops/s |  | 
+| Serialization.dsljson_reflection | thrpt | 2 | 7249.347 | ops/s |  | 
+| Serialization.fastjson | thrpt | 2 | 1719.104 | ops/s |  | 
+| Serialization.flexjson | thrpt | 2 | 78.897 | ops/s |  | 
+| Serialization.genson | thrpt | 2 | 2484.081 | ops/s |  | 
+| Serialization.gson | thrpt | 2 | 2262.906 | ops/s |  | 
+| Serialization.jackson | thrpt | 2 | 2255.038 | ops/s |  | 
+| Serialization.jackson_afterburner | thrpt | 2 | 2397.871 | ops/s |  | 
+| Serialization.jackson_blackbird | thrpt | 2 | 2450.561 | ops/s |  | 
+| Serialization.jodd | thrpt | 2 | 572.696 | ops/s |  | 
+| Serialization.logansquare | thrpt | 2 | 3203.734 | ops/s |  | 
+| Serialization.moshi | thrpt | 2 | 1819.162 | ops/s |  | 
 
 ## JMH: Serialization - 1000 KB
 
@@ -345,14 +345,14 @@
 |  |  |  |  |  |  | 
 | # | Run | progress: | 92.86% | complete, | ETA | 
 | # | Fork: | 1 | of | 1 |  | 
-| # | Warmup | Iteration | 1: | Using | SEED=4931844670311 | 
-| 74.737 | ops/s |  |  |  |  | 
-| Iteration | 1: | 173.998 | ops/s |  |  | 
-| Iteration | 2: | 185.130 | ops/s |  |  | 
+| # | Warmup | Iteration | 1: | Using | SEED=4823810422736 | 
+| 112.760 | ops/s |  |  |  |  | 
+| Iteration | 1: | 194.005 | ops/s |  |  | 
+| Iteration | 2: | 188.387 | ops/s |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | moshi/databind": |  |  |  |  | 
-| 179.564 | ops/s |  |  |  |  | 
+| 191.196 | ops/s |  |  |  |  | 
 |  |  |  |  |  |  | 
 |  |  |  |  |  |  | 
 | # | Run | complete. | Total | time: | 00:03:10 | 
@@ -371,20 +371,20 @@
 |  |  |  |  |  |  | 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| Serialization.avajejsonb | thrpt | 2 | 313.647 | ops/s |  | 
-| Serialization.avajejsonb_jackson | thrpt | 2 | 273.717 | ops/s |  | 
-| Serialization.dsljson | thrpt | 2 | 818.959 | ops/s |  | 
-| Serialization.dsljson_reflection | thrpt | 2 | 648.778 | ops/s |  | 
-| Serialization.fastjson | thrpt | 2 | 132.882 | ops/s |  | 
-| Serialization.flexjson | thrpt | 2 | 26.473 | ops/s |  | 
-| Serialization.genson | thrpt | 2 | 215.279 | ops/s |  | 
-| Serialization.gson | thrpt | 2 | 201.977 | ops/s |  | 
-| Serialization.jackson | thrpt | 2 | 207.016 | ops/s |  | 
-| Serialization.jackson_afterburner | thrpt | 2 | 214.751 | ops/s |  | 
-| Serialization.jackson_blackbird | thrpt | 2 | 213.048 | ops/s |  | 
-| Serialization.jodd | thrpt | 2 | 49.644 | ops/s |  | 
-| Serialization.logansquare | thrpt | 2 | 284.771 | ops/s |  | 
-| Serialization.moshi | thrpt | 2 | 179.564 | ops/s |  | 
+| Serialization.avajejsonb | thrpt | 2 | 330.462 | ops/s |  | 
+| Serialization.avajejsonb_jackson | thrpt | 2 | 292.706 | ops/s |  | 
+| Serialization.dsljson | thrpt | 2 | 856.127 | ops/s |  | 
+| Serialization.dsljson_reflection | thrpt | 2 | 698.372 | ops/s |  | 
+| Serialization.fastjson | thrpt | 2 | 140.464 | ops/s |  | 
+| Serialization.flexjson | thrpt | 2 | 24.705 | ops/s |  | 
+| Serialization.genson | thrpt | 2 | 242.864 | ops/s |  | 
+| Serialization.gson | thrpt | 2 | 226.696 | ops/s |  | 
+| Serialization.jackson | thrpt | 2 | 225.023 | ops/s |  | 
+| Serialization.jackson_afterburner | thrpt | 2 | 228.432 | ops/s |  | 
+| Serialization.jackson_blackbird | thrpt | 2 | 227.224 | ops/s |  | 
+| Serialization.jodd | thrpt | 2 | 56.953 | ops/s |  | 
+| Serialization.logansquare | thrpt | 2 | 291.132 | ops/s |  | 
+| Serialization.moshi | thrpt | 2 | 191.196 | ops/s |  | 
 
 # *users* data type
 
@@ -392,281 +392,281 @@
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 489845.881 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 338143.875 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 521313.838 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 425027.840 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 197015.591 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 34218.055 | ops/s |  | 
-| genson/databind | thrpt | 2 | 179874.279 | ops/s |  | 
-| gson/databind | thrpt | 2 | 202520.039 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 250729.005 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 380669.424 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 328583.927 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 226966.808 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 72258.269 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 274221.460 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 172898.515 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 221857.064 | ops/s |  | 
-| qson/databind | thrpt | 2 | 249523.032 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 40939.297 | ops/s |  | 
-| genson/stream | thrpt | 2 | 208845.003 | ops/s |  | 
-| gson/stream | thrpt | 2 | 127151.603 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 343896.401 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 21553.369 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 34082.553 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 63404.481 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 173645.623 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 50115.849 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 185547.640 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 66369.061 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 48998.596 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 56174.308 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 546888.234 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 304148.490 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 563435.646 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 437980.619 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 193146.928 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 36318.041 | ops/s |  | 
+| genson/databind | thrpt | 2 | 216530.272 | ops/s |  | 
+| gson/databind | thrpt | 2 | 205242.103 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 254806.950 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 380362.731 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 317893.295 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 233346.415 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 69497.161 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 291786.440 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 176102.342 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 187823.451 | ops/s |  | 
+| qson/databind | thrpt | 2 | 275099.330 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 44873.882 | ops/s |  | 
+| genson/stream | thrpt | 2 | 214563.562 | ops/s |  | 
+| gson/stream | thrpt | 2 | 178266.901 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 326423.066 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 24182.693 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 44321.770 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 50939.857 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 113701.731 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 51892.655 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 196622.537 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 66280.579 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 50907.756 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 54315.119 | ops/s |  | 
 
 ## JMH: Deserialization - 10 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 51065.805 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 35934.047 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 59402.814 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 45190.086 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 29927.847 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 3791.688 | ops/s |  | 
-| genson/databind | thrpt | 2 | 27772.173 | ops/s |  | 
-| gson/databind | thrpt | 2 | 29214.339 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 32561.579 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 40267.794 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 38729.908 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 25145.898 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 8494.425 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 30976.639 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 32567.357 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 25510.771 | ops/s |  | 
-| qson/databind | thrpt | 2 | 33137.020 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 5920.375 | ops/s |  | 
-| genson/stream | thrpt | 2 | 28641.055 | ops/s |  | 
-| gson/stream | thrpt | 2 | 19279.811 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 40173.660 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 9584.787 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 5009.364 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 8704.599 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 14795.425 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 5640.155 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 20692.074 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 18043.536 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 5703.086 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 6149.760 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 52326.008 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 37502.234 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 60487.713 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 41426.330 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 29394.055 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 4021.305 | ops/s |  | 
+| genson/databind | thrpt | 2 | 29265.052 | ops/s |  | 
+| gson/databind | thrpt | 2 | 30134.257 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 34287.576 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 42569.197 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 39889.404 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 24830.333 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 8354.166 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 35452.327 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 33073.278 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 24036.902 | ops/s |  | 
+| qson/databind | thrpt | 2 | 32419.295 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 5760.835 | ops/s |  | 
+| genson/stream | thrpt | 2 | 29573.186 | ops/s |  | 
+| gson/stream | thrpt | 2 | 23425.190 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 38985.995 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 14727.488 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 5423.160 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 9025.793 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 19778.744 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 5756.742 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 22276.916 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 19237.941 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 5860.434 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 6647.399 | ops/s |  | 
 
 ## JMH: Deserialization - 100 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 5511.900 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 3958.234 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 6264.172 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 4747.845 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 2677.558 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 359.113 | ops/s |  | 
-| genson/databind | thrpt | 2 | 3177.626 | ops/s |  | 
-| gson/databind | thrpt | 2 | 3133.919 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 3777.124 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 4251.732 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 4192.726 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 2706.378 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 815.108 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 3607.810 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 3773.756 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 2198.279 | ops/s |  | 
-| qson/databind | thrpt | 2 | 3495.012 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 598.561 | ops/s |  | 
-| genson/stream | thrpt | 2 | 3153.769 | ops/s |  | 
-| gson/stream | thrpt | 2 | 2380.380 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 4192.013 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 1938.939 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 529.232 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 947.799 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 2117.159 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 575.003 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 767.060 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 2290.220 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 558.771 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 620.247 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 5198.096 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 3850.298 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 5995.761 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 4479.868 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 2711.306 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 420.795 | ops/s |  | 
+| genson/databind | thrpt | 2 | 3155.242 | ops/s |  | 
+| gson/databind | thrpt | 2 | 2882.155 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 3501.600 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 4064.732 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 4115.547 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 2805.448 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 843.201 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 3749.343 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 3990.077 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 2256.035 | ops/s |  | 
+| qson/databind | thrpt | 2 | 3522.858 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 608.208 | ops/s |  | 
+| genson/stream | thrpt | 2 | 3383.001 | ops/s |  | 
+| gson/stream | thrpt | 2 | 1112.729 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 4277.715 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 2094.499 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 551.689 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 943.521 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 1932.004 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 557.987 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 2230.734 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 2186.838 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 572.635 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 635.162 | ops/s |  | 
 
 ## JMH: Deserialization - 1000 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 436.937 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 370.150 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 607.305 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 457.267 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 280.452 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 41.139 | ops/s |  | 
-| genson/databind | thrpt | 2 | 306.983 | ops/s |  | 
-| gson/databind | thrpt | 2 | 302.123 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 375.113 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 432.631 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 403.692 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 258.913 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 52.977 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 350.687 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 363.227 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 219.843 | ops/s |  | 
-| qson/databind | thrpt | 2 | 324.365 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 57.062 | ops/s |  | 
-| genson/stream | thrpt | 2 | 317.034 | ops/s |  | 
-| gson/stream | thrpt | 2 | 234.925 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 425.211 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 219.057 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 51.869 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 33.953 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 162.326 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 54.408 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 228.245 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 205.982 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 57.066 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 50.081 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 524.009 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 347.616 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 625.261 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 488.713 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 285.847 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 39.605 | ops/s |  | 
+| genson/databind | thrpt | 2 | 298.244 | ops/s |  | 
+| gson/databind | thrpt | 2 | 307.710 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 381.934 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 443.640 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 426.070 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 277.722 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 80.719 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 360.283 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 367.571 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 268.367 | ops/s |  | 
+| qson/databind | thrpt | 2 | 343.047 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 63.994 | ops/s |  | 
+| genson/stream | thrpt | 2 | 331.051 | ops/s |  | 
+| gson/stream | thrpt | 2 | 307.393 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 409.265 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 231.577 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 49.846 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 94.456 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 193.561 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 47.365 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 184.743 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 222.497 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 60.090 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 51.074 | ops/s |  | 
 
 ## JMH: Serialization - 1 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 597633.714 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 448079.655 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 671138.773 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 553220.266 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 546570.418 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 557.065 | ops/s |  | 
-| genson/databind | thrpt | 2 | 257084.632 | ops/s |  | 
-| gson/databind | thrpt | 2 | 309933.296 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 418081.820 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 439245.900 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 430469.374 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 53685.475 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 173014.363 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 237593.705 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 413997.709 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 255417.459 | ops/s |  | 
-| qson/databind | thrpt | 2 | 200756.852 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 168456.748 | ops/s |  | 
-| genson/stream | thrpt | 2 | 232793.646 | ops/s |  | 
-| gson/stream | thrpt | 2 | 117063.528 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 433627.541 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 337941.896 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 37688.201 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 86402.533 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 239588.367 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 94264.989 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 268636.942 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 291025.005 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 48539.533 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 24825.805 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 583216.317 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 452013.356 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 710760.032 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 597747.530 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 568115.278 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 727.407 | ops/s |  | 
+| genson/databind | thrpt | 2 | 276547.408 | ops/s |  | 
+| gson/databind | thrpt | 2 | 327559.216 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 423190.629 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 448579.013 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 458661.479 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 51369.901 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 164097.218 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 278353.568 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 426540.514 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 243322.316 | ops/s |  | 
+| qson/databind | thrpt | 2 | 294390.891 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 151268.038 | ops/s |  | 
+| genson/stream | thrpt | 2 | 239727.728 | ops/s |  | 
+| gson/stream | thrpt | 2 | 115577.049 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 411844.275 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 352490.249 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 42684.881 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 42640.765 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 195054.160 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 84855.786 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 256502.223 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 291583.486 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 73726.764 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 81770.203 | ops/s |  | 
 
 ## JMH: Serialization - 10 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 66601.387 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 53213.499 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 70332.850 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 65078.690 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 38374.405 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 215.779 | ops/s |  | 
-| genson/databind | thrpt | 2 | 40244.513 | ops/s |  | 
-| gson/databind | thrpt | 2 | 34737.823 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 53223.857 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 55426.109 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 51525.748 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 5592.047 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 19349.639 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 19768.267 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 52896.097 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 27670.403 | ops/s |  | 
-| qson/databind | thrpt | 2 | 33356.077 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 19310.480 | ops/s |  | 
-| genson/stream | thrpt | 2 | 33247.591 | ops/s |  | 
-| gson/stream | thrpt | 2 | 11134.634 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 51272.907 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 55588.874 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 5238.717 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 5478.648 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 25604.592 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 7744.244 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 25370.860 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 28827.559 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 3410.745 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 6999.878 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 67814.054 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 53849.267 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 79407.091 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 67951.733 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 39958.996 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 221.114 | ops/s |  | 
+| genson/databind | thrpt | 2 | 39788.219 | ops/s |  | 
+| gson/databind | thrpt | 2 | 31323.733 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 52991.247 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 56898.137 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 61057.037 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 5714.306 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 19466.615 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 20742.373 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 49643.664 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 30909.697 | ops/s |  | 
+| qson/databind | thrpt | 2 | 41155.471 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 21923.330 | ops/s |  | 
+| genson/stream | thrpt | 2 | 36208.885 | ops/s |  | 
+| gson/stream | thrpt | 2 | 10886.777 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 52685.215 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 51632.560 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 5190.400 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 5166.345 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 24422.856 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 7368.655 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 29462.886 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 23653.122 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 6822.021 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 7160.252 | ops/s |  | 
 
 ## JMH: Serialization - 100 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 6547.228 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 5167.139 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 7807.186 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 6801.356 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 2742.391 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 70.540 | ops/s |  | 
-| genson/databind | thrpt | 2 | 3430.994 | ops/s |  | 
-| gson/databind | thrpt | 2 | 3122.021 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 5416.028 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 5407.676 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 5428.415 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 559.968 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 1970.085 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 1899.021 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 5180.342 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 2857.437 | ops/s |  | 
-| qson/databind | thrpt | 2 | 3582.435 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 1876.544 | ops/s |  | 
-| genson/stream | thrpt | 2 | 3400.452 | ops/s |  | 
-| gson/stream | thrpt | 2 | 1176.042 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 5648.466 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 5632.206 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 541.586 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 651.463 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 2186.120 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 762.308 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 3238.614 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 2370.528 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 644.868 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 561.011 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 6962.606 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 5154.732 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 8240.987 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 7022.665 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 2956.577 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 72.568 | ops/s |  | 
+| genson/databind | thrpt | 2 | 3491.978 | ops/s |  | 
+| gson/databind | thrpt | 2 | 3318.235 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 5485.770 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 5317.981 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 5753.522 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 548.742 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 1941.685 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 1944.109 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 5833.340 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 2913.335 | ops/s |  | 
+| qson/databind | thrpt | 2 | 3010.667 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 2232.272 | ops/s |  | 
+| genson/stream | thrpt | 2 | 3525.523 | ops/s |  | 
+| gson/stream | thrpt | 2 | 1120.705 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 5225.562 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 5276.233 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 503.395 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 667.091 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 2144.757 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 787.413 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 2543.807 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 2314.473 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 646.152 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 569.527 | ops/s |  | 
 
 ## JMH: Serialization - 1000 KB
 
 | Benchmark | Mode | Cnt | Score | Error | Units | 
 |-----------|------|-----|-------|-------|-------|
-| avajejsonb/databind | thrpt | 2 | 677.734 | ops/s |  | 
-| avajejsonb_jackson/databind | thrpt | 2 | 546.965 | ops/s |  | 
-| dsljson/databind | thrpt | 2 | 786.284 | ops/s |  | 
-| dsljson_reflection/databind | thrpt | 2 | 625.182 | ops/s |  | 
-| fastjson/databind | thrpt | 2 | 200.169 | ops/s |  | 
-| flexjson/databind | thrpt | 2 | 24.376 | ops/s |  | 
-| genson/databind | thrpt | 2 | 318.144 | ops/s |  | 
-| gson/databind | thrpt | 2 | 315.484 | ops/s |  | 
-| jackson/databind | thrpt | 2 | 531.175 | ops/s |  | 
-| jackson_afterburner/databind | thrpt | 2 | 497.203 | ops/s |  | 
-| jackson_blackbird/databind | thrpt | 2 | 510.265 | ops/s |  | 
-| jodd/databind | thrpt | 2 | 55.510 | ops/s |  | 
-| johnzon/databind | thrpt | 2 | 182.950 | ops/s |  | 
-| jsonsmart/databind | thrpt | 2 | 185.426 | ops/s |  | 
-| logansquare/databind | thrpt | 2 | 555.681 | ops/s |  | 
-| moshi/databind | thrpt | 2 | 293.592 | ops/s |  | 
-| qson/databind | thrpt | 2 | 382.726 | ops/s |  | 
-| yasson/databind | thrpt | 2 | 206.725 | ops/s |  | 
-| genson/stream | thrpt | 2 | 362.673 | ops/s |  | 
-| gson/stream | thrpt | 2 | 112.083 | ops/s |  | 
-| jackson/stream | thrpt | 2 | 531.826 | ops/s |  | 
-| javaxjson/stream | thrpt | 2 | 549.064 | ops/s |  | 
-| jsonio/stream | thrpt | 2 | 48.667 | ops/s |  | 
-| jsonsimple/stream | thrpt | 2 | 61.182 | ops/s |  | 
-| minimaljson/stream | thrpt | 2 | 211.902 | ops/s |  | 
-| mjson/stream | thrpt | 2 | 64.068 | ops/s |  | 
-| moshi/stream | thrpt | 2 | 294.296 | ops/s |  | 
-| nanojson/stream | thrpt | 2 | 180.731 | ops/s |  | 
-| orgjson/stream | thrpt | 2 | 68.852 | ops/s |  | 
-| purejson/stream | thrpt | 2 | 11.644 | ops/s |  | 
+| avajejsonb/databind | thrpt | 2 | 661.171 | ops/s |  | 
+| avajejsonb_jackson/databind | thrpt | 2 | 547.388 | ops/s |  | 
+| dsljson/databind | thrpt | 2 | 752.340 | ops/s |  | 
+| dsljson_reflection/databind | thrpt | 2 | 636.173 | ops/s |  | 
+| fastjson/databind | thrpt | 2 | 211.379 | ops/s |  | 
+| flexjson/databind | thrpt | 2 | 25.043 | ops/s |  | 
+| genson/databind | thrpt | 2 | 357.448 | ops/s |  | 
+| gson/databind | thrpt | 2 | 310.868 | ops/s |  | 
+| jackson/databind | thrpt | 2 | 486.593 | ops/s |  | 
+| jackson_afterburner/databind | thrpt | 2 | 511.598 | ops/s |  | 
+| jackson_blackbird/databind | thrpt | 2 | 516.488 | ops/s |  | 
+| jodd/databind | thrpt | 2 | 61.406 | ops/s |  | 
+| johnzon/databind | thrpt | 2 | 190.898 | ops/s |  | 
+| jsonsmart/databind | thrpt | 2 | 189.558 | ops/s |  | 
+| logansquare/databind | thrpt | 2 | 574.853 | ops/s |  | 
+| moshi/databind | thrpt | 2 | 291.660 | ops/s |  | 
+| qson/databind | thrpt | 2 | 318.885 | ops/s |  | 
+| yasson/databind | thrpt | 2 | 209.124 | ops/s |  | 
+| genson/stream | thrpt | 2 | 347.625 | ops/s |  | 
+| gson/stream | thrpt | 2 | 106.394 | ops/s |  | 
+| jackson/stream | thrpt | 2 | 563.842 | ops/s |  | 
+| javaxjson/stream | thrpt | 2 | 576.539 | ops/s |  | 
+| jsonio/stream | thrpt | 2 | 52.354 | ops/s |  | 
+| jsonsimple/stream | thrpt | 2 | 44.335 | ops/s |  | 
+| minimaljson/stream | thrpt | 2 | 215.353 | ops/s |  | 
+| mjson/stream | thrpt | 2 | 71.854 | ops/s |  | 
+| moshi/stream | thrpt | 2 | 311.921 | ops/s |  | 
+| nanojson/stream | thrpt | 2 | 189.245 | ops/s |  | 
+| orgjson/stream | thrpt | 2 | 62.411 | ops/s |  | 
+| purejson/stream | thrpt | 2 | 13.778 | ops/s |  | 
 
 <script src="https://www.gstatic.com/charts/loader.js"></script>
 
@@ -676,8 +676,10 @@
         callback: drawChart
       });
       const chartOptions = {
-        width: 1000,
+        width: 1400,
         height: 600,
+        'chartArea': {'width': '80%', 'height': '80%'},
+        is3D: true,
         annotations: {
           textStyle: {
             fontName: 'Times-Roman',
