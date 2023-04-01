@@ -3,7 +3,7 @@ name: Java CI with Gradle
 on:
   push:
     branches:
-      - java17
+      - publishreport
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
         token: ${{ secrets.TOKEN_GIT }}
-    - name: Set up JDK 17
+    - name: Set up JDK
       uses: actions/setup-java@v3
       with:
         java-version: '17'
@@ -24,7 +24,7 @@ jobs:
       run: |
         sh run-everything
         cd output
-        ./toMd.sh ../index.md
+        ./toMd.sh > ../index.md
         cat template.html >> ../index.md
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:

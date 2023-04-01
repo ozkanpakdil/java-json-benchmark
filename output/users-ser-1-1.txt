@@ -6,11 +6,842 @@
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
 # Timeout: 10 min per iteration
-# Threads: 4 threads, will synchronize iterations
+# Threads: 8 threads, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb
 
 # Run progress: 0.00% complete, ETA 00:06:24
 # Fork: 1 of 1
 OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
-# Warmup Iteration   1: Using SEED=196377561815205 as seed for Random
+# Warmup Iteration   1: Using SEED=201900216434106 as seed for Random
+857057.928 ops/s
+Iteration   1: 405837.873 ops/s
+Iteration   2: 112937.421 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb":
+  259387.647 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb_jackson
+
+# Run progress: 3.13% complete, ETA 00:10:18
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201920430950406 as seed for Random
+1408341.921 ops/s
+Iteration   1: 1036727.575 ops/s
+Iteration   2: 1237842.249 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb_jackson":
+  1137284.912 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.dsljson
+
+# Run progress: 6.25% complete, ETA 00:08:17
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201933378970502 as seed for Random
+1446337.551 ops/s
+Iteration   1: 1449772.474 ops/s
+Iteration   2: 1516324.223 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson":
+  1483048.349 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.dsljson_reflection
+
+# Run progress: 9.38% complete, ETA 00:07:24
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201946202072491 as seed for Random
+1113875.799 ops/s
+Iteration   1: 1130621.996 ops/s
+Iteration   2: 1103743.953 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson_reflection":
+  1117182.974 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.fastjson
+
+# Run progress: 12.50% complete, ETA 00:06:52
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201959162446129 as seed for Random
+760953.834 ops/s
+Iteration   1: 1267118.342 ops/s
+Iteration   2: 1038834.928 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.fastjson":
+  1152976.635 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.flexjson
+
+# Run progress: 15.63% complete, ETA 00:06:36
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201976603657894 as seed for Random
+1988.872 ops/s
+Iteration   1: 822.727 ops/s
+Iteration   2: 784.993 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.flexjson":
+  803.860 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.genson
+
+# Run progress: 18.75% complete, ETA 00:06:27
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=201989522974337 as seed for Random
+645960.424 ops/s
+Iteration   1: 707908.426 ops/s
+Iteration   2: 697245.685 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.genson":
+  702577.055 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.gson
+
+# Run progress: 21.88% complete, ETA 00:06:05
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202002515038554 as seed for Random
+550272.309 ops/s
+Iteration   1: 572945.727 ops/s
+Iteration   2: 580828.772 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.gson":
+  576887.250 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson
+
+# Run progress: 25.00% complete, ETA 00:05:45
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202015439220671 as seed for Random
+1023575.736 ops/s
+Iteration   1: 1107868.144 ops/s
+Iteration   2: 1123046.867 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson":
+  1115457.505 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson_afterburner
+
+# Run progress: 28.13% complete, ETA 00:05:27
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202028358850136 as seed for Random
+1110445.594 ops/s
+Iteration   1: 1172482.511 ops/s
+Iteration   2: 1222405.655 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_afterburner":
+  1197444.083 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson_blackbird
+
+# Run progress: 31.25% complete, ETA 00:05:10
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202041309890864 as seed for Random
+1022293.401 ops/s
+Iteration   1: 1071349.795 ops/s
+Iteration   2: 1105162.602 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_blackbird":
+  1088256.199 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jodd
+
+# Run progress: 34.38% complete, ETA 00:04:54
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202054214434686 as seed for Random
+153303.725 ops/s
+Iteration   1: 160330.987 ops/s
+Iteration   2: 160959.913 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.jodd":
+  160645.450 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.johnzon
+
+# Run progress: 37.50% complete, ETA 00:04:38
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202067213156098 as seed for Random
+410403.634 ops/s
+Iteration   1: 447075.580 ops/s
+Iteration   2: 448196.760 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.johnzon":
+  447636.170 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jsonsmart
+
+# Run progress: 40.63% complete, ETA 00:04:22
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202080145165731 as seed for Random
+354872.128 ops/s
+Iteration   1: 438630.898 ops/s
+Iteration   2: 458404.278 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.jsonsmart":
+  448517.588 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.logansquare
+
+# Run progress: 43.75% complete, ETA 00:04:07
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202093082296527 as seed for Random
+1174756.190 ops/s
+Iteration   1: 1354590.902 ops/s
+Iteration   2: 1394935.084 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.logansquare":
+  1374762.993 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.moshi
+
+# Run progress: 46.88% complete, ETA 00:03:53
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202106025225752 as seed for Random
+447027.891 ops/s
+Iteration   1: 467648.410 ops/s
+Iteration   2: 473916.812 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.moshi":
+  470782.611 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.qson
+
+# Run progress: 50.00% complete, ETA 00:03:38
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202118919808805 as seed for Random
+836282.101 ops/s
+Iteration   1: 857573.094 ops/s
+Iteration   2: 897978.901 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.qson":
+  877775.998 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.yasson
+
+# Run progress: 53.13% complete, ETA 00:03:24
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202131830487405 as seed for Random
+279020.017 ops/s
+Iteration   1: 351035.792 ops/s
+Iteration   2: 358481.321 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.databind.Serialization.yasson":
+  354758.557 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.genson
+
+# Run progress: 56.25% complete, ETA 00:03:10
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202144728980930 as seed for Random
+504900.652 ops/s
+Iteration   1: 585599.676 ops/s
+Iteration   2: 613824.550 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.genson":
+  599712.113 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.gson
+
+# Run progress: 59.38% complete, ETA 00:02:56
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202157649262225 as seed for Random
+196444.795 ops/s
+Iteration   1: 222198.140 ops/s
+Iteration   2: 230055.160 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.gson":
+  226126.650 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jackson
+
+# Run progress: 62.50% complete, ETA 00:02:42
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202170574252816 as seed for Random
+1263183.788 ops/s
+Iteration   1: 1474088.722 ops/s
+Iteration   2: 1527605.486 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.jackson":
+  1500847.104 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.javaxjson
+
+# Run progress: 65.63% complete, ETA 00:02:28
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202183495532417 as seed for Random
+965057.283 ops/s
+Iteration   1: 1043240.237 ops/s
+Iteration   2: 1089026.175 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.javaxjson":
+  1066133.206 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jsonio
+
+# Run progress: 68.75% complete, ETA 00:02:14
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202196420125539 as seed for Random
+95471.523 ops/s
+Iteration   1: 112830.455 ops/s
+Iteration   2: 109038.162 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonio":
+  110934.308 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jsonsimple
+
+# Run progress: 71.88% complete, ETA 00:02:00
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202209313153912 as seed for Random
+95470.923 ops/s
+Iteration   1: 107406.289 ops/s
+Iteration   2: 108474.007 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonsimple":
+  107940.148 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.minimaljson
+
+# Run progress: 75.00% complete, ETA 00:01:47
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202222234183124 as seed for Random
+588647.333 ops/s
+Iteration   1: 591814.813 ops/s
+Iteration   2: 661783.926 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.minimaljson":
+  626799.369 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.mjson
+
+# Run progress: 78.13% complete, ETA 00:01:33
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202235226807409 as seed for Random
+181491.811 ops/s
+Iteration   1: 200929.546 ops/s
+Iteration   2: 201262.413 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.mjson":
+  201095.980 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.moshi
+
+# Run progress: 81.25% complete, ETA 00:01:20
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202248172346945 as seed for Random
+557421.387 ops/s
+Iteration   1: 571812.868 ops/s
+Iteration   2: 595276.898 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.moshi":
+  583544.883 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.nanojson
+
+# Run progress: 84.38% complete, ETA 00:01:06
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202261107268184 as seed for Random
+899353.696 ops/s
+Iteration   1: 1005842.923 ops/s
+Iteration   2: 1024609.901 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.nanojson":
+  1015226.412 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.orgjson
+
+# Run progress: 87.50% complete, ETA 00:00:53
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202274095547724 as seed for Random
+173068.652 ops/s
+Iteration   1: 190206.634 ops/s
+Iteration   2: 192348.041 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.orgjson":
+  191277.337 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.purejson
+
+# Run progress: 90.63% complete, ETA 00:00:40
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202287048602430 as seed for Random
+78745.208 ops/s
+Iteration   1: 85237.699 ops/s
+Iteration   2: 86619.134 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.purejson":
+  85928.416 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.tapestry
+
+# Run progress: 93.75% complete, ETA 00:00:26
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202299951181587 as seed for Random
+114394.759 ops/s
+Iteration   1: 121314.621 ops/s
+Iteration   2: 123399.094 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.tapestry":
+  122356.857 ops/s
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /home/oz-mint/.sdkman/candidates/java/22.3.r19-grl/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -Xms2g -Xmx2g
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.underscore_java
+
+# Run progress: 96.88% complete, ETA 00:00:13
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: Using SEED=202312883046613 as seed for Random
+48532.908 ops/s
+Iteration   1: 47599.692 ops/s
+Iteration   2: 49719.168 ops/s
+
+
+Result "com.github.fabienrenaud.jjb.stream.Serialization.underscore_java":
+  48659.430 ops/s
+
+
+# Run complete. Total time: 00:07:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                            Mode  Cnt        Score   Error  Units
+c.g.f.j.databind.Serialization.avajejsonb           thrpt    2   259387.647          ops/s
+c.g.f.j.databind.Serialization.avajejsonb_jackson   thrpt    2  1137284.912          ops/s
+c.g.f.j.databind.Serialization.dsljson              thrpt    2  1483048.349          ops/s
+c.g.f.j.databind.Serialization.dsljson_reflection   thrpt    2  1117182.974          ops/s
+c.g.f.j.databind.Serialization.fastjson             thrpt    2  1152976.635          ops/s
+c.g.f.j.databind.Serialization.flexjson             thrpt    2      803.860          ops/s
+c.g.f.j.databind.Serialization.genson               thrpt    2   702577.055          ops/s
+c.g.f.j.databind.Serialization.gson                 thrpt    2   576887.250          ops/s
+c.g.f.j.databind.Serialization.jackson              thrpt    2  1115457.505          ops/s
+c.g.f.j.databind.Serialization.jackson_afterburner  thrpt    2  1197444.083          ops/s
+c.g.f.j.databind.Serialization.jackson_blackbird    thrpt    2  1088256.199          ops/s
+c.g.f.j.databind.Serialization.jodd                 thrpt    2   160645.450          ops/s
+c.g.f.j.databind.Serialization.johnzon              thrpt    2   447636.170          ops/s
+c.g.f.j.databind.Serialization.jsonsmart            thrpt    2   448517.588          ops/s
+c.g.f.j.databind.Serialization.logansquare          thrpt    2  1374762.993          ops/s
+c.g.f.j.databind.Serialization.moshi                thrpt    2   470782.611          ops/s
+c.g.f.j.databind.Serialization.qson                 thrpt    2   877775.998          ops/s
+c.g.f.j.databind.Serialization.yasson               thrpt    2   354758.557          ops/s
+c.g.f.j.stream.Serialization.genson                 thrpt    2   599712.113          ops/s
+c.g.f.j.stream.Serialization.gson                   thrpt    2   226126.650          ops/s
+c.g.f.j.stream.Serialization.jackson                thrpt    2  1500847.104          ops/s
+c.g.f.j.stream.Serialization.javaxjson              thrpt    2  1066133.206          ops/s
+c.g.f.j.stream.Serialization.jsonio                 thrpt    2   110934.308          ops/s
+c.g.f.j.stream.Serialization.jsonsimple             thrpt    2   107940.148          ops/s
+c.g.f.j.stream.Serialization.minimaljson            thrpt    2   626799.369          ops/s
+c.g.f.j.stream.Serialization.mjson                  thrpt    2   201095.980          ops/s
+c.g.f.j.stream.Serialization.moshi                  thrpt    2   583544.883          ops/s
+c.g.f.j.stream.Serialization.nanojson               thrpt    2  1015226.412          ops/s
+c.g.f.j.stream.Serialization.orgjson                thrpt    2   191277.337          ops/s
+c.g.f.j.stream.Serialization.purejson               thrpt    2    85928.416          ops/s
+c.g.f.j.stream.Serialization.tapestry               thrpt    2   122356.857          ops/s
+c.g.f.j.stream.Serialization.underscore_java        thrpt    2    48659.430          ops/s

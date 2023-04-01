@@ -32,9 +32,9 @@ public final class Cli {
 
     public static void main(String[] args) throws RunnerException {
         CliBuilder<Runnable> builder = io.airlift.airline.Cli.<Runnable>builder("bench")
-            .withDescription("Benchmark JSON libraries")
-            .withDefaultCommand(Help.class)
-            .withCommands(Help.class, InfoCommand.class, SerializationCommand.class, DeserializationCommand.class);
+                .withDescription("Benchmark JSON libraries")
+                .withDefaultCommand(Help.class)
+                .withCommands(Help.class, InfoCommand.class, SerializationCommand.class, DeserializationCommand.class);
 
         io.airlift.airline.Cli<Runnable> gitParser = builder.build();
         gitParser.parse(args).run();
@@ -55,8 +55,8 @@ public final class Cli {
         public int measurementIterations = 2;
         @Option(type = OptionType.GLOBAL, name = "-m", description = "JMH: measurement time in seconds. Defaults to 3.")
         public int measurementTime = 1;
-        @Option(type = OptionType.GLOBAL, name = "-t", description = "JMH: number of threads. Defaults to 16.")
-        public int threads = Runtime.getRuntime().availableProcessors()/2;
+        @Option(type = OptionType.GLOBAL, name = "-t", description = "JMH: number of threads. Defaults to 8.")
+        public int threads = 8;
 
         /*
          * JSON options
@@ -87,11 +87,11 @@ public final class Cli {
                 JsonUtils.printJavaxJsonProvider();
             }
             ChainedOptionsBuilder b = new OptionsBuilder()
-                .forks(forks)
-                .warmupIterations(warmupIterations)
-                .measurementIterations(measurementIterations)
-                .measurementTime(new TimeValue(measurementTime, TimeUnit.SECONDS))
-                .threads(threads);
+                    .forks(forks)
+                    .warmupIterations(warmupIterations)
+                    .measurementIterations(measurementIterations)
+                    .measurementTime(new TimeValue(measurementTime, TimeUnit.SECONDS))
+                    .threads(threads);
 //                .addProfiler(StackProfiler.class);
 
             List<String> includes = includes();
