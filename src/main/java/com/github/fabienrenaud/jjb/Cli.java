@@ -48,15 +48,15 @@ public final class Cli {
          * JMH options
          */
         @Option(type = OptionType.GLOBAL, name = "-f", description = "JMH: forks. Defaults to 2.")
-        public int forks = 2;
+        public int forks = 1;
         @Option(type = OptionType.GLOBAL, name = "-wi", description = "JMH: warmup iterations. Defaults to 5.")
-        public int warmupIterations = 5;
+        public int warmupIterations = 1;
         @Option(type = OptionType.GLOBAL, name = "-i", description = "JMH: measurement iterations. Defaults to 10.")
-        public int measurementIterations = 10;
+        public int measurementIterations = 2;
         @Option(type = OptionType.GLOBAL, name = "-m", description = "JMH: measurement time in seconds. Defaults to 3.")
-        public int measurementTime = 3;
+        public int measurementTime = 1;
         @Option(type = OptionType.GLOBAL, name = "-t", description = "JMH: number of threads. Defaults to 16.")
-        public int threads = 16;
+        public int threads = Runtime.getRuntime().availableProcessors()/2;
 
         /*
          * JSON options
@@ -86,7 +86,6 @@ public final class Cli {
             if (libraries == null || libraries.contains("javaxjson")) {
                 JsonUtils.printJavaxJsonProvider();
             }
-
             ChainedOptionsBuilder b = new OptionsBuilder()
                 .forks(forks)
                 .warmupIterations(warmupIterations)

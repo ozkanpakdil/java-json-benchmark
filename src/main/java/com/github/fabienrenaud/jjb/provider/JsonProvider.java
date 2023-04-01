@@ -36,8 +36,6 @@ public interface JsonProvider<T> {
 
     JSONSerializer flexjsonSer();
 
-    org.boon.json.ObjectMapper boon();
-
     Mapper johnzon();
 
     Map<String, Object> jsonioStreamOptions();
