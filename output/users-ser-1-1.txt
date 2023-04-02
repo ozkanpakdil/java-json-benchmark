@@ -12,14 +12,14 @@
 
 # Run progress: 0.00% complete, ETA 00:06:24
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=151293988892 as seed for Random
-543801.641 ops/s
-Iteration   1: 571619.845 ops/s
-Iteration   2: 594812.789 ops/s
+# Warmup Iteration   1: Using SEED=99327870080 as seed for Random
+812005.781 ops/s
+Iteration   1: 852945.904 ops/s
+Iteration   2: 876277.367 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb":
-  583216.317 ops/s
+  864611.636 ops/s
 
 
 # JMH version: 1.35
@@ -34,16 +34,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb_jackson
 
-# Run progress: 3.13% complete, ETA 00:06:47
+# Run progress: 3.13% complete, ETA 00:06:39
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=164400617726 as seed for Random
-412488.797 ops/s
-Iteration   1: 447415.047 ops/s
-Iteration   2: 456611.665 ops/s
+# Warmup Iteration   1: Using SEED=112144255114 as seed for Random
+596381.222 ops/s
+Iteration   1: 636810.077 ops/s
+Iteration   2: 665160.388 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb_jackson":
-  452013.356 ops/s
+  650985.233 ops/s
 
 
 # JMH version: 1.35
@@ -58,16 +58,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.avajejsonb_jackson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.dsljson
 
-# Run progress: 6.25% complete, ETA 00:06:33
+# Run progress: 6.25% complete, ETA 00:06:25
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=177466750453 as seed for Random
-659201.447 ops/s
-Iteration   1: 705841.168 ops/s
-Iteration   2: 715678.896 ops/s
+# Warmup Iteration   1: Using SEED=124943318066 as seed for Random
+802871.721 ops/s
+Iteration   1: 825020.948 ops/s
+Iteration   2: 849566.246 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson":
-  710760.032 ops/s
+  837293.597 ops/s
 
 
 # JMH version: 1.35
@@ -82,16 +82,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.dsljson_reflection
 
-# Run progress: 9.38% complete, ETA 00:06:19
+# Run progress: 9.38% complete, ETA 00:06:11
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=190498423697 as seed for Random
-577440.674 ops/s
-Iteration   1: 599941.259 ops/s
-Iteration   2: 595553.801 ops/s
+# Warmup Iteration   1: Using SEED=137762039701 as seed for Random
+723750.145 ops/s
+Iteration   1: 790861.223 ops/s
+Iteration   2: 801693.946 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson_reflection":
-  597747.530 ops/s
+  796277.584 ops/s
 
 
 # JMH version: 1.35
@@ -106,16 +106,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.dsljson_reflection":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.fastjson
 
-# Run progress: 12.50% complete, ETA 00:06:06
+# Run progress: 12.50% complete, ETA 00:05:58
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=203553770440 as seed for Random
-366622.979 ops/s
-Iteration   1: 566858.330 ops/s
-Iteration   2: 569372.226 ops/s
+# Warmup Iteration   1: Using SEED=150554323174 as seed for Random
+611176.018 ops/s
+Iteration   1: 676248.146 ops/s
+Iteration   2: 690338.879 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.fastjson":
-  568115.278 ops/s
+  683293.513 ops/s
 
 
 # JMH version: 1.35
@@ -130,16 +130,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.fastjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.flexjson
 
-# Run progress: 15.63% complete, ETA 00:05:52
+# Run progress: 15.63% complete, ETA 00:05:46
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=216662752354 as seed for Random
-1409.379 ops/s
-Iteration   1: 752.279 ops/s
-Iteration   2: 702.535 ops/s
+# Warmup Iteration   1: Using SEED=163349752333 as seed for Random
+1492.243 ops/s
+Iteration   1: 776.371 ops/s
+Iteration   2: 768.682 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.flexjson":
-  727.407 ops/s
+  772.526 ops/s
 
 
 # JMH version: 1.35
@@ -154,16 +154,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.flexjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.genson
 
-# Run progress: 18.75% complete, ETA 00:05:39
+# Run progress: 18.75% complete, ETA 00:05:33
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=229679126942 as seed for Random
-232174.042 ops/s
-Iteration   1: 271426.180 ops/s
-Iteration   2: 281668.637 ops/s
+# Warmup Iteration   1: Using SEED=176203250133 as seed for Random
+349302.255 ops/s
+Iteration   1: 428986.870 ops/s
+Iteration   2: 443165.767 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.genson":
-  276547.408 ops/s
+  436076.318 ops/s
 
 
 # JMH version: 1.35
@@ -178,16 +178,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.genson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.gson
 
-# Run progress: 21.88% complete, ETA 00:05:26
+# Run progress: 21.88% complete, ETA 00:05:20
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=242774410102 as seed for Random
-283277.415 ops/s
-Iteration   1: 320354.140 ops/s
-Iteration   2: 334764.292 ops/s
+# Warmup Iteration   1: Using SEED=189020079071 as seed for Random
+439161.634 ops/s
+Iteration   1: 481184.846 ops/s
+Iteration   2: 498504.352 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.gson":
-  327559.216 ops/s
+  489844.599 ops/s
 
 
 # JMH version: 1.35
@@ -202,16 +202,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.gson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson
 
-# Run progress: 25.00% complete, ETA 00:05:13
+# Run progress: 25.00% complete, ETA 00:05:07
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=255888206377 as seed for Random
-375633.955 ops/s
-Iteration   1: 390663.031 ops/s
-Iteration   2: 455718.227 ops/s
+# Warmup Iteration   1: Using SEED=201783719276 as seed for Random
+574748.822 ops/s
+Iteration   1: 620318.962 ops/s
+Iteration   2: 668421.450 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson":
-  423190.629 ops/s
+  644370.206 ops/s
 
 
 # JMH version: 1.35
@@ -226,16 +226,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson_afterburner
 
-# Run progress: 28.13% complete, ETA 00:05:00
+# Run progress: 28.13% complete, ETA 00:04:54
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=268957533616 as seed for Random
-387936.381 ops/s
-Iteration   1: 429112.024 ops/s
-Iteration   2: 468046.002 ops/s
+# Warmup Iteration   1: Using SEED=214551029558 as seed for Random
+554073.638 ops/s
+Iteration   1: 603311.106 ops/s
+Iteration   2: 623382.092 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_afterburner":
-  448579.013 ops/s
+  613346.599 ops/s
 
 
 # JMH version: 1.35
@@ -250,16 +250,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_afterburner":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jackson_blackbird
 
-# Run progress: 31.25% complete, ETA 00:04:47
+# Run progress: 31.25% complete, ETA 00:04:41
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=282006580391 as seed for Random
-360420.141 ops/s
-Iteration   1: 451065.234 ops/s
-Iteration   2: 466257.723 ops/s
+# Warmup Iteration   1: Using SEED=227339740463 as seed for Random
+525505.492 ops/s
+Iteration   1: 588466.663 ops/s
+Iteration   2: 603491.929 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_blackbird":
-  458661.479 ops/s
+  595979.296 ops/s
 
 
 # JMH version: 1.35
@@ -274,16 +274,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.jackson_blackbird":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jodd
 
-# Run progress: 34.38% complete, ETA 00:04:34
+# Run progress: 34.38% complete, ETA 00:04:28
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=294989798523 as seed for Random
-37683.991 ops/s
-Iteration   1: 52045.645 ops/s
-Iteration   2: 50694.158 ops/s
+# Warmup Iteration   1: Using SEED=240118619560 as seed for Random
+45281.306 ops/s
+Iteration   1: 53836.064 ops/s
+Iteration   2: 53183.729 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.jodd":
-  51369.901 ops/s
+  53509.897 ops/s
 
 
 # JMH version: 1.35
@@ -298,16 +298,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.jodd":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.johnzon
 
-# Run progress: 37.50% complete, ETA 00:04:21
+# Run progress: 37.50% complete, ETA 00:04:16
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=308001700168 as seed for Random
-122694.798 ops/s
-Iteration   1: 162640.438 ops/s
-Iteration   2: 165553.998 ops/s
+# Warmup Iteration   1: Using SEED=252949030144 as seed for Random
+191010.664 ops/s
+Iteration   1: 246914.962 ops/s
+Iteration   2: 253268.340 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.johnzon":
-  164097.218 ops/s
+  250091.651 ops/s
 
 
 # JMH version: 1.35
@@ -322,16 +322,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.johnzon":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.jsonsmart
 
-# Run progress: 40.63% complete, ETA 00:04:08
+# Run progress: 40.63% complete, ETA 00:04:03
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=321010727584 as seed for Random
-239120.542 ops/s
-Iteration   1: 269019.618 ops/s
-Iteration   2: 287687.518 ops/s
+# Warmup Iteration   1: Using SEED=265757379913 as seed for Random
+352935.973 ops/s
+Iteration   1: 361261.632 ops/s
+Iteration   2: 359962.711 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.jsonsmart":
-  278353.568 ops/s
+  360612.171 ops/s
 
 
 # JMH version: 1.35
@@ -346,16 +346,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.jsonsmart":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.logansquare
 
-# Run progress: 43.75% complete, ETA 00:03:55
+# Run progress: 43.75% complete, ETA 00:03:50
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=334022081015 as seed for Random
-359063.850 ops/s
-Iteration   1: 429479.768 ops/s
-Iteration   2: 423601.260 ops/s
+# Warmup Iteration   1: Using SEED=278537203410 as seed for Random
+477247.564 ops/s
+Iteration   1: 550744.358 ops/s
+Iteration   2: 574708.420 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.logansquare":
-  426540.514 ops/s
+  562726.389 ops/s
 
 
 # JMH version: 1.35
@@ -370,16 +370,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.logansquare":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.moshi
 
-# Run progress: 46.88% complete, ETA 00:03:41
+# Run progress: 46.88% complete, ETA 00:03:37
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=347041993411 as seed for Random
-210664.574 ops/s
-Iteration   1: 239647.742 ops/s
-Iteration   2: 246996.890 ops/s
+# Warmup Iteration   1: Using SEED=291379044293 as seed for Random
+252455.524 ops/s
+Iteration   1: 313065.157 ops/s
+Iteration   2: 335817.292 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.moshi":
-  243322.316 ops/s
+  324441.224 ops/s
 
 
 # JMH version: 1.35
@@ -394,16 +394,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.moshi":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.qson
 
-# Run progress: 50.00% complete, ETA 00:03:28
+# Run progress: 50.00% complete, ETA 00:03:24
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=360168951834 as seed for Random
-185163.195 ops/s
-Iteration   1: 278118.370 ops/s
-Iteration   2: 310663.413 ops/s
+# Warmup Iteration   1: Using SEED=304177494215 as seed for Random
+218472.808 ops/s
+Iteration   1: 241304.099 ops/s
+Iteration   2: 252699.941 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.qson":
-  294390.891 ops/s
+  247002.020 ops/s
 
 
 # JMH version: 1.35
@@ -418,16 +418,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.qson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Serialization.yasson
 
-# Run progress: 53.13% complete, ETA 00:03:15
+# Run progress: 53.13% complete, ETA 00:03:12
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=373193388300 as seed for Random
-93456.360 ops/s
-Iteration   1: 147309.175 ops/s
-Iteration   2: 155226.901 ops/s
+# Warmup Iteration   1: Using SEED=316976930296 as seed for Random
+122551.094 ops/s
+Iteration   1: 185970.895 ops/s
+Iteration   2: 195376.826 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Serialization.yasson":
-  151268.038 ops/s
+  190673.860 ops/s
 
 
 # JMH version: 1.35
@@ -442,16 +442,16 @@ Result "com.github.fabienrenaud.jjb.databind.Serialization.yasson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.genson
 
-# Run progress: 56.25% complete, ETA 00:03:02
+# Run progress: 56.25% complete, ETA 00:02:59
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=386235432105 as seed for Random
-191002.560 ops/s
-Iteration   1: 229471.328 ops/s
-Iteration   2: 249984.128 ops/s
+# Warmup Iteration   1: Using SEED=329750112114 as seed for Random
+312378.180 ops/s
+Iteration   1: 347593.860 ops/s
+Iteration   2: 386605.034 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.genson":
-  239727.728 ops/s
+  367099.447 ops/s
 
 
 # JMH version: 1.35
@@ -466,16 +466,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.genson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.gson
 
-# Run progress: 59.38% complete, ETA 00:02:49
+# Run progress: 59.38% complete, ETA 00:02:46
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=399297835943 as seed for Random
-97627.686 ops/s
-Iteration   1: 114840.904 ops/s
-Iteration   2: 116313.193 ops/s
+# Warmup Iteration   1: Using SEED=342568472341 as seed for Random
+152064.982 ops/s
+Iteration   1: 165582.457 ops/s
+Iteration   2: 177851.906 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.gson":
-  115577.049 ops/s
+  171717.181 ops/s
 
 
 # JMH version: 1.35
@@ -490,16 +490,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.gson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jackson
 
-# Run progress: 62.50% complete, ETA 00:02:36
+# Run progress: 62.50% complete, ETA 00:02:33
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=412326041932 as seed for Random
-352622.603 ops/s
-Iteration   1: 401777.059 ops/s
-Iteration   2: 421911.492 ops/s
+# Warmup Iteration   1: Using SEED=355353915501 as seed for Random
+497594.274 ops/s
+Iteration   1: 549605.314 ops/s
+Iteration   2: 564973.888 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.jackson":
-  411844.275 ops/s
+  557289.601 ops/s
 
 
 # JMH version: 1.35
@@ -514,16 +514,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.jackson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.javaxjson
 
-# Run progress: 65.63% complete, ETA 00:02:23
+# Run progress: 65.63% complete, ETA 00:02:20
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=425355400861 as seed for Random
-258022.579 ops/s
-Iteration   1: 338576.454 ops/s
-Iteration   2: 366404.044 ops/s
+# Warmup Iteration   1: Using SEED=368148752628 as seed for Random
+376168.655 ops/s
+Iteration   1: 462136.965 ops/s
+Iteration   2: 472603.020 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.javaxjson":
-  352490.249 ops/s
+  467369.993 ops/s
 
 
 # JMH version: 1.35
@@ -538,16 +538,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.javaxjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jsonio
 
-# Run progress: 68.75% complete, ETA 00:02:10
+# Run progress: 68.75% complete, ETA 00:02:08
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=438375602402 as seed for Random
-23056.436 ops/s
-Iteration   1: 41327.313 ops/s
-Iteration   2: 44042.449 ops/s
+# Warmup Iteration   1: Using SEED=380956983662 as seed for Random
+35209.851 ops/s
+Iteration   1: 43401.748 ops/s
+Iteration   2: 44185.125 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonio":
-  42684.881 ops/s
+  43793.437 ops/s
 
 
 # JMH version: 1.35
@@ -562,16 +562,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonio":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.jsonsimple
 
-# Run progress: 71.88% complete, ETA 00:01:57
+# Run progress: 71.88% complete, ETA 00:01:55
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=451410076451 as seed for Random
-36703.814 ops/s
-Iteration   1: 43758.452 ops/s
-Iteration   2: 41523.078 ops/s
+# Warmup Iteration   1: Using SEED=393774445532 as seed for Random
+44492.383 ops/s
+Iteration   1: 49348.697 ops/s
+Iteration   2: 49248.789 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonsimple":
-  42640.765 ops/s
+  49298.743 ops/s
 
 
 # JMH version: 1.35
@@ -586,16 +586,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.jsonsimple":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.minimaljson
 
-# Run progress: 75.00% complete, ETA 00:01:44
+# Run progress: 75.00% complete, ETA 00:01:42
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=464430870683 as seed for Random
-134752.457 ops/s
-Iteration   1: 195075.081 ops/s
-Iteration   2: 195033.239 ops/s
+# Warmup Iteration   1: Using SEED=406569224752 as seed for Random
+297590.081 ops/s
+Iteration   1: 351515.485 ops/s
+Iteration   2: 366663.396 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.minimaljson":
-  195054.160 ops/s
+  359089.441 ops/s
 
 
 # JMH version: 1.35
@@ -610,16 +610,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.minimaljson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.mjson
 
-# Run progress: 78.13% complete, ETA 00:01:31
+# Run progress: 78.13% complete, ETA 00:01:29
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=477450400782 as seed for Random
-47415.764 ops/s
-Iteration   1: 84426.746 ops/s
-Iteration   2: 85284.826 ops/s
+# Warmup Iteration   1: Using SEED=419327693752 as seed for Random
+110799.315 ops/s
+Iteration   1: 140190.741 ops/s
+Iteration   2: 143071.871 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.mjson":
-  84855.786 ops/s
+  141631.306 ops/s
 
 
 # JMH version: 1.35
@@ -634,16 +634,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.mjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.moshi
 
-# Run progress: 81.25% complete, ETA 00:01:18
+# Run progress: 81.25% complete, ETA 00:01:16
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=490582445881 as seed for Random
-209379.602 ops/s
-Iteration   1: 243303.177 ops/s
-Iteration   2: 269701.269 ops/s
+# Warmup Iteration   1: Using SEED=432118477150 as seed for Random
+284374.031 ops/s
+Iteration   1: 314244.933 ops/s
+Iteration   2: 338161.042 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.moshi":
-  256502.223 ops/s
+  326202.988 ops/s
 
 
 # JMH version: 1.35
@@ -658,16 +658,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.moshi":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.nanojson
 
-# Run progress: 84.38% complete, ETA 00:01:05
+# Run progress: 84.38% complete, ETA 00:01:04
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=503622399954 as seed for Random
-252223.722 ops/s
-Iteration   1: 285023.483 ops/s
-Iteration   2: 298143.489 ops/s
+# Warmup Iteration   1: Using SEED=444928326327 as seed for Random
+354548.313 ops/s
+Iteration   1: 385376.969 ops/s
+Iteration   2: 402355.456 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.nanojson":
-  291583.486 ops/s
+  393866.212 ops/s
 
 
 # JMH version: 1.35
@@ -682,16 +682,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.nanojson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.orgjson
 
-# Run progress: 87.50% complete, ETA 00:00:52
+# Run progress: 87.50% complete, ETA 00:00:51
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=516646547782 as seed for Random
-16225.653 ops/s
-Iteration   1: 70720.654 ops/s
-Iteration   2: 76732.875 ops/s
+# Warmup Iteration   1: Using SEED=457715780486 as seed for Random
+40534.851 ops/s
+Iteration   1: 78510.652 ops/s
+Iteration   2: 80310.599 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.orgjson":
-  73726.764 ops/s
+  79410.626 ops/s
 
 
 # JMH version: 1.35
@@ -706,16 +706,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.orgjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.purejson
 
-# Run progress: 90.63% complete, ETA 00:00:39
+# Run progress: 90.63% complete, ETA 00:00:38
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=529701307484 as seed for Random
-66896.390 ops/s
-Iteration   1: 81720.103 ops/s
-Iteration   2: 81820.302 ops/s
+# Warmup Iteration   1: Using SEED=470573589201 as seed for Random
+93944.159 ops/s
+Iteration   1: 125076.281 ops/s
+Iteration   2: 127289.566 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.purejson":
-  81770.203 ops/s
+  126182.924 ops/s
 
 
 # JMH version: 1.35
@@ -730,16 +730,16 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.purejson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.tapestry
 
-# Run progress: 93.75% complete, ETA 00:00:26
+# Run progress: 93.75% complete, ETA 00:00:25
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=542778464751 as seed for Random
-29437.907 ops/s
-Iteration   1: 46516.303 ops/s
-Iteration   2: 48484.176 ops/s
+# Warmup Iteration   1: Using SEED=483451094808 as seed for Random
+43210.857 ops/s
+Iteration   1: 56524.903 ops/s
+Iteration   2: 56751.917 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.tapestry":
-  47500.239 ops/s
+  56638.410 ops/s
 
 
 # JMH version: 1.35
@@ -754,19 +754,19 @@ Result "com.github.fabienrenaud.jjb.stream.Serialization.tapestry":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Serialization.underscore_java
 
-# Run progress: 96.88% complete, ETA 00:00:13
+# Run progress: 96.88% complete, ETA 00:00:12
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=555814915242 as seed for Random
-23006.604 ops/s
-Iteration   1: 25489.322 ops/s
-Iteration   2: 28051.081 ops/s
+# Warmup Iteration   1: Using SEED=496221601465 as seed for Random
+40441.213 ops/s
+Iteration   1: 46742.639 ops/s
+Iteration   2: 47864.645 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Serialization.underscore_java":
-  26770.202 ops/s
+  47303.642 ops/s
 
 
-# Run complete. Total time: 00:06:57
+# Run complete. Total time: 00:06:49
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -781,35 +781,35 @@ different JVMs are already problematic, the performance difference caused by dif
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
 Benchmark                                            Mode  Cnt       Score   Error  Units
-c.g.f.j.databind.Serialization.avajejsonb           thrpt    2  583216.317          ops/s
-c.g.f.j.databind.Serialization.avajejsonb_jackson   thrpt    2  452013.356          ops/s
-c.g.f.j.databind.Serialization.dsljson              thrpt    2  710760.032          ops/s
-c.g.f.j.databind.Serialization.dsljson_reflection   thrpt    2  597747.530          ops/s
-c.g.f.j.databind.Serialization.fastjson             thrpt    2  568115.278          ops/s
-c.g.f.j.databind.Serialization.flexjson             thrpt    2     727.407          ops/s
-c.g.f.j.databind.Serialization.genson               thrpt    2  276547.408          ops/s
-c.g.f.j.databind.Serialization.gson                 thrpt    2  327559.216          ops/s
-c.g.f.j.databind.Serialization.jackson              thrpt    2  423190.629          ops/s
-c.g.f.j.databind.Serialization.jackson_afterburner  thrpt    2  448579.013          ops/s
-c.g.f.j.databind.Serialization.jackson_blackbird    thrpt    2  458661.479          ops/s
-c.g.f.j.databind.Serialization.jodd                 thrpt    2   51369.901          ops/s
-c.g.f.j.databind.Serialization.johnzon              thrpt    2  164097.218          ops/s
-c.g.f.j.databind.Serialization.jsonsmart            thrpt    2  278353.568          ops/s
-c.g.f.j.databind.Serialization.logansquare          thrpt    2  426540.514          ops/s
-c.g.f.j.databind.Serialization.moshi                thrpt    2  243322.316          ops/s
-c.g.f.j.databind.Serialization.qson                 thrpt    2  294390.891          ops/s
-c.g.f.j.databind.Serialization.yasson               thrpt    2  151268.038          ops/s
-c.g.f.j.stream.Serialization.genson                 thrpt    2  239727.728          ops/s
-c.g.f.j.stream.Serialization.gson                   thrpt    2  115577.049          ops/s
-c.g.f.j.stream.Serialization.jackson                thrpt    2  411844.275          ops/s
-c.g.f.j.stream.Serialization.javaxjson              thrpt    2  352490.249          ops/s
-c.g.f.j.stream.Serialization.jsonio                 thrpt    2   42684.881          ops/s
-c.g.f.j.stream.Serialization.jsonsimple             thrpt    2   42640.765          ops/s
-c.g.f.j.stream.Serialization.minimaljson            thrpt    2  195054.160          ops/s
-c.g.f.j.stream.Serialization.mjson                  thrpt    2   84855.786          ops/s
-c.g.f.j.stream.Serialization.moshi                  thrpt    2  256502.223          ops/s
-c.g.f.j.stream.Serialization.nanojson               thrpt    2  291583.486          ops/s
-c.g.f.j.stream.Serialization.orgjson                thrpt    2   73726.764          ops/s
-c.g.f.j.stream.Serialization.purejson               thrpt    2   81770.203          ops/s
-c.g.f.j.stream.Serialization.tapestry               thrpt    2   47500.239          ops/s
-c.g.f.j.stream.Serialization.underscore_java        thrpt    2   26770.202          ops/s
+c.g.f.j.databind.Serialization.avajejsonb           thrpt    2  864611.636          ops/s
+c.g.f.j.databind.Serialization.avajejsonb_jackson   thrpt    2  650985.233          ops/s
+c.g.f.j.databind.Serialization.dsljson              thrpt    2  837293.597          ops/s
+c.g.f.j.databind.Serialization.dsljson_reflection   thrpt    2  796277.584          ops/s
+c.g.f.j.databind.Serialization.fastjson             thrpt    2  683293.513          ops/s
+c.g.f.j.databind.Serialization.flexjson             thrpt    2     772.526          ops/s
+c.g.f.j.databind.Serialization.genson               thrpt    2  436076.318          ops/s
+c.g.f.j.databind.Serialization.gson                 thrpt    2  489844.599          ops/s
+c.g.f.j.databind.Serialization.jackson              thrpt    2  644370.206          ops/s
+c.g.f.j.databind.Serialization.jackson_afterburner  thrpt    2  613346.599          ops/s
+c.g.f.j.databind.Serialization.jackson_blackbird    thrpt    2  595979.296          ops/s
+c.g.f.j.databind.Serialization.jodd                 thrpt    2   53509.897          ops/s
+c.g.f.j.databind.Serialization.johnzon              thrpt    2  250091.651          ops/s
+c.g.f.j.databind.Serialization.jsonsmart            thrpt    2  360612.171          ops/s
+c.g.f.j.databind.Serialization.logansquare          thrpt    2  562726.389          ops/s
+c.g.f.j.databind.Serialization.moshi                thrpt    2  324441.224          ops/s
+c.g.f.j.databind.Serialization.qson                 thrpt    2  247002.020          ops/s
+c.g.f.j.databind.Serialization.yasson               thrpt    2  190673.860          ops/s
+c.g.f.j.stream.Serialization.genson                 thrpt    2  367099.447          ops/s
+c.g.f.j.stream.Serialization.gson                   thrpt    2  171717.181          ops/s
+c.g.f.j.stream.Serialization.jackson                thrpt    2  557289.601          ops/s
+c.g.f.j.stream.Serialization.javaxjson              thrpt    2  467369.993          ops/s
+c.g.f.j.stream.Serialization.jsonio                 thrpt    2   43793.437          ops/s
+c.g.f.j.stream.Serialization.jsonsimple             thrpt    2   49298.743          ops/s
+c.g.f.j.stream.Serialization.minimaljson            thrpt    2  359089.441          ops/s
+c.g.f.j.stream.Serialization.mjson                  thrpt    2  141631.306          ops/s
+c.g.f.j.stream.Serialization.moshi                  thrpt    2  326202.988          ops/s
+c.g.f.j.stream.Serialization.nanojson               thrpt    2  393866.212          ops/s
+c.g.f.j.stream.Serialization.orgjson                thrpt    2   79410.626          ops/s
+c.g.f.j.stream.Serialization.purejson               thrpt    2  126182.924          ops/s
+c.g.f.j.stream.Serialization.tapestry               thrpt    2   56638.410          ops/s
+c.g.f.j.stream.Serialization.underscore_java        thrpt    2   47303.642          ops/s
