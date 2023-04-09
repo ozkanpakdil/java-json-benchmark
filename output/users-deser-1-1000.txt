@@ -1,7 +1,7 @@
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -12,20 +12,20 @@
 
 # Run progress: 0.00% complete, ETA 00:06:24
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3186229047222 as seed for Random
-544.882 ops/s
-Iteration   1: 631.399 ops/s
-Iteration   2: 631.311 ops/s
+# Warmup Iteration   1: Using SEED=3209929978199 as seed for Random
+400.246 ops/s
+Iteration   1: 507.728 ops/s
+Iteration   2: 509.313 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.avajejsonb":
-  631.355 ops/s
+  508.520 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -34,22 +34,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.avajejsonb":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.avajejsonb_jackson
 
-# Run progress: 3.13% complete, ETA 00:06:45
+# Run progress: 3.13% complete, ETA 00:06:54
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3199236108313 as seed for Random
-395.954 ops/s
-Iteration   1: 480.612 ops/s
-Iteration   2: 482.364 ops/s
+# Warmup Iteration   1: Using SEED=3223277344729 as seed for Random
+261.153 ops/s
+Iteration   1: 374.988 ops/s
+Iteration   2: 376.867 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.avajejsonb_jackson":
-  481.488 ops/s
+  375.928 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -58,22 +58,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.avajejsonb_jackson"
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.dsljson
 
-# Run progress: 6.25% complete, ETA 00:06:31
+# Run progress: 6.25% complete, ETA 00:06:41
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3212279373328 as seed for Random
-671.231 ops/s
-Iteration   1: 768.536 ops/s
-Iteration   2: 767.974 ops/s
+# Warmup Iteration   1: Using SEED=3236619640135 as seed for Random
+484.605 ops/s
+Iteration   1: 565.694 ops/s
+Iteration   2: 568.382 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.dsljson":
-  768.255 ops/s
+  567.038 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -82,22 +82,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.dsljson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.dsljson_reflection
 
-# Run progress: 9.38% complete, ETA 00:06:18
+# Run progress: 9.38% complete, ETA 00:06:27
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3225309906172 as seed for Random
-501.745 ops/s
-Iteration   1: 590.457 ops/s
-Iteration   2: 602.147 ops/s
+# Warmup Iteration   1: Using SEED=3249974965987 as seed for Random
+350.959 ops/s
+Iteration   1: 456.888 ops/s
+Iteration   2: 446.652 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.dsljson_reflection":
-  596.302 ops/s
+  451.770 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -106,22 +106,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.dsljson_reflection"
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.fastjson
 
-# Run progress: 12.50% complete, ETA 00:06:05
+# Run progress: 12.50% complete, ETA 00:06:14
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3238303818928 as seed for Random
-273.365 ops/s
-Iteration   1: 314.451 ops/s
-Iteration   2: 317.847 ops/s
+# Warmup Iteration   1: Using SEED=3263350324359 as seed for Random
+414.400 ops/s
+Iteration   1: 582.329 ops/s
+Iteration   2: 586.247 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.fastjson":
-  316.149 ops/s
+  584.288 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -130,22 +130,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.fastjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.flexjson
 
-# Run progress: 15.63% complete, ETA 00:05:52
+# Run progress: 15.63% complete, ETA 00:06:00
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3251349461485 as seed for Random
-23.803 ops/s
-Iteration   1: 51.743 ops/s
-Iteration   2: 53.293 ops/s
+# Warmup Iteration   1: Using SEED=3276695681254 as seed for Random
+12.452 ops/s
+Iteration   1: 33.004 ops/s
+Iteration   2: 41.117 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.flexjson":
-  52.518 ops/s
+  37.061 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -154,22 +154,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.flexjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.genson
 
-# Run progress: 18.75% complete, ETA 00:05:41
+# Run progress: 18.75% complete, ETA 00:05:51
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3264890328332 as seed for Random
-295.547 ops/s
-Iteration   1: 372.692 ops/s
-Iteration   2: 366.629 ops/s
+# Warmup Iteration   1: Using SEED=3290938413776 as seed for Random
+240.276 ops/s
+Iteration   1: 293.829 ops/s
+Iteration   2: 290.471 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.genson":
-  369.661 ops/s
+  292.150 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -178,22 +178,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.genson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.gson
 
-# Run progress: 21.88% complete, ETA 00:05:27
+# Run progress: 21.88% complete, ETA 00:05:37
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3277919462882 as seed for Random
-340.018 ops/s
-Iteration   1: 396.308 ops/s
-Iteration   2: 394.507 ops/s
+# Warmup Iteration   1: Using SEED=3304341201632 as seed for Random
+239.933 ops/s
+Iteration   1: 271.371 ops/s
+Iteration   2: 292.754 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.gson":
-  395.408 ops/s
+  282.062 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -202,22 +202,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.gson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.jackson
 
-# Run progress: 25.00% complete, ETA 00:05:14
+# Run progress: 25.00% complete, ETA 00:05:23
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3290963965626 as seed for Random
-334.507 ops/s
-Iteration   1: 447.523 ops/s
-Iteration   2: 447.108 ops/s
+# Warmup Iteration   1: Using SEED=3317781946375 as seed for Random
+239.011 ops/s
+Iteration   1: 353.364 ops/s
+Iteration   2: 349.937 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson":
-  447.315 ops/s
+  351.650 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -226,22 +226,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.jackson_afterburner
 
-# Run progress: 28.13% complete, ETA 00:05:01
+# Run progress: 28.13% complete, ETA 00:05:09
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3303981759503 as seed for Random
-443.486 ops/s
-Iteration   1: 541.333 ops/s
-Iteration   2: 541.204 ops/s
+# Warmup Iteration   1: Using SEED=3331175354029 as seed for Random
+368.821 ops/s
+Iteration   1: 419.216 ops/s
+Iteration   2: 413.416 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson_afterburner":
-  541.268 ops/s
+  416.316 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -250,22 +250,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson_afterburner
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.jackson_blackbird
 
-# Run progress: 31.25% complete, ETA 00:04:47
+# Run progress: 31.25% complete, ETA 00:04:56
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3316950098774 as seed for Random
-447.642 ops/s
-Iteration   1: 513.638 ops/s
-Iteration   2: 513.594 ops/s
+# Warmup Iteration   1: Using SEED=3344572901918 as seed for Random
+329.597 ops/s
+Iteration   1: 390.926 ops/s
+Iteration   2: 398.093 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson_blackbird":
-  513.616 ops/s
+  394.509 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -274,22 +274,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.jackson_blackbird":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.jodd
 
-# Run progress: 34.38% complete, ETA 00:04:34
+# Run progress: 34.38% complete, ETA 00:04:42
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3329967564550 as seed for Random
-288.721 ops/s
-Iteration   1: 350.350 ops/s
-Iteration   2: 348.402 ops/s
+# Warmup Iteration   1: Using SEED=3357904143924 as seed for Random
+204.682 ops/s
+Iteration   1: 276.402 ops/s
+Iteration   2: 277.205 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.jodd":
-  349.376 ops/s
+  276.803 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -298,22 +298,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.jodd":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.johnzon
 
-# Run progress: 37.50% complete, ETA 00:04:21
+# Run progress: 37.50% complete, ETA 00:04:29
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3343003000833 as seed for Random
-60.198 ops/s
-Iteration   1: 79.208 ops/s
-Iteration   2: 85.340 ops/s
+# Warmup Iteration   1: Using SEED=3371310881198 as seed for Random
+40.516 ops/s
+Iteration   1: 53.046 ops/s
+Iteration   2: 68.876 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.johnzon":
-  82.274 ops/s
+  60.961 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -322,22 +322,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.johnzon":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.jsonsmart
 
-# Run progress: 40.63% complete, ETA 00:04:08
+# Run progress: 40.63% complete, ETA 00:04:16
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3356413918232 as seed for Random
-401.630 ops/s
-Iteration   1: 458.566 ops/s
-Iteration   2: 460.339 ops/s
+# Warmup Iteration   1: Using SEED=3385216387145 as seed for Random
+278.026 ops/s
+Iteration   1: 357.891 ops/s
+Iteration   2: 362.148 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.jsonsmart":
-  459.453 ops/s
+  360.019 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -346,22 +346,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.jsonsmart":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.logansquare
 
-# Run progress: 43.75% complete, ETA 00:03:55
+# Run progress: 43.75% complete, ETA 00:04:02
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3369422774489 as seed for Random
-376.480 ops/s
-Iteration   1: 488.859 ops/s
-Iteration   2: 488.746 ops/s
+# Warmup Iteration   1: Using SEED=3398555987228 as seed for Random
+245.413 ops/s
+Iteration   1: 382.315 ops/s
+Iteration   2: 379.453 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.logansquare":
-  488.802 ops/s
+  380.884 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -370,22 +370,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.logansquare":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.moshi
 
-# Run progress: 46.88% complete, ETA 00:03:42
+# Run progress: 46.88% complete, ETA 00:03:48
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3382412139670 as seed for Random
-243.498 ops/s
-Iteration   1: 299.699 ops/s
-Iteration   2: 300.143 ops/s
+# Warmup Iteration   1: Using SEED=3411934512308 as seed for Random
+123.481 ops/s
+Iteration   1: 208.600 ops/s
+Iteration   2: 217.102 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.moshi":
-  299.921 ops/s
+  212.851 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -394,22 +394,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.moshi":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.qson
 
-# Run progress: 50.00% complete, ETA 00:03:29
+# Run progress: 50.00% complete, ETA 00:03:35
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3395493231169 as seed for Random
-391.565 ops/s
-Iteration   1: 455.527 ops/s
-Iteration   2: 452.487 ops/s
+# Warmup Iteration   1: Using SEED=3425376175881 as seed for Random
+247.011 ops/s
+Iteration   1: 307.296 ops/s
+Iteration   2: 337.547 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.qson":
-  454.007 ops/s
+  322.422 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -418,22 +418,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.qson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.databind.Deserialization.yasson
 
-# Run progress: 53.13% complete, ETA 00:03:16
+# Run progress: 53.13% complete, ETA 00:03:21
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3408496887862 as seed for Random
-34.766 ops/s
-Iteration   1: 69.079 ops/s
-Iteration   2: 68.608 ops/s
+# Warmup Iteration   1: Using SEED=3438738785714 as seed for Random
+88.178 ops/s
+Iteration   1: 166.073 ops/s
+Iteration   2: 169.887 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.databind.Deserialization.yasson":
-  68.844 ops/s
+  167.980 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -442,22 +442,22 @@ Result "com.github.fabienrenaud.jjb.databind.Deserialization.yasson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.genson
 
-# Run progress: 56.25% complete, ETA 00:03:03
+# Run progress: 56.25% complete, ETA 00:03:08
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3421897960009 as seed for Random
-365.163 ops/s
-Iteration   1: 447.809 ops/s
-Iteration   2: 452.760 ops/s
+# Warmup Iteration   1: Using SEED=3452178444783 as seed for Random
+163.487 ops/s
+Iteration   1: 294.037 ops/s
+Iteration   2: 297.443 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.genson":
-  450.284 ops/s
+  295.740 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -466,22 +466,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.genson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.gson
 
-# Run progress: 59.38% complete, ETA 00:02:50
+# Run progress: 59.38% complete, ETA 00:02:54
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3434931789847 as seed for Random
-148.240 ops/s
-Iteration   1: 291.253 ops/s
-Iteration   2: 291.839 ops/s
+# Warmup Iteration   1: Using SEED=3465553653748 as seed for Random
+163.497 ops/s
+Iteration   1: 247.591 ops/s
+Iteration   2: 242.155 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.gson":
-  291.546 ops/s
+  244.873 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -490,46 +490,46 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.gson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.jackson
 
-# Run progress: 62.50% complete, ETA 00:02:37
+# Run progress: 62.50% complete, ETA 00:02:41
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3447935986526 as seed for Random
-357.382 ops/s
-Iteration   1: 515.916 ops/s
-Iteration   2: 522.274 ops/s
+# Warmup Iteration   1: Using SEED=3478910943728 as seed for Random
+198.299 ops/s
+Iteration   1: 358.001 ops/s
+Iteration   2: 379.291 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.jackson":
-  519.095 ops/s
+  368.646 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
 # Timeout: 10 min per iteration
 # Threads: 8 threads, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
-# Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.javaxjson
+# Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.jakartajson
 
-# Run progress: 65.63% complete, ETA 00:02:23
+# Run progress: 65.63% complete, ETA 00:02:27
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3460997905716 as seed for Random
-173.466 ops/s
-Iteration   1: 285.016 ops/s
-Iteration   2: 281.585 ops/s
+# Warmup Iteration   1: Using SEED=3492203881999 as seed for Random
+48.782 ops/s
+Iteration   1: 140.846 ops/s
+Iteration   2: 179.393 ops/s
 
 
-Result "com.github.fabienrenaud.jjb.stream.Deserialization.javaxjson":
-  283.301 ops/s
+Result "com.github.fabienrenaud.jjb.stream.Deserialization.jakartajson":
+  160.119 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -538,22 +538,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.javaxjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.jsonio
 
-# Run progress: 68.75% complete, ETA 00:02:10
+# Run progress: 68.75% complete, ETA 00:02:14
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3474020072248 as seed for Random
-38.959 ops/s
-Iteration   1: 65.684 ops/s
-Iteration   2: 64.746 ops/s
+# Warmup Iteration   1: Using SEED=3505771355223 as seed for Random
+23.759 ops/s
+Iteration   1: 45.816 ops/s
+Iteration   2: 46.419 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.jsonio":
-  65.215 ops/s
+  46.118 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -562,22 +562,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.jsonio":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.jsonsimple
 
-# Run progress: 71.88% complete, ETA 00:01:57
+# Run progress: 71.88% complete, ETA 00:02:01
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3487500361776 as seed for Random
-67.150 ops/s
-Iteration   1: 119.051 ops/s
-Iteration   2: 119.261 ops/s
+# Warmup Iteration   1: Using SEED=3519774069635 as seed for Random
+19.200 ops/s
+Iteration   1: 50.613 ops/s
+Iteration   2: 86.735 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.jsonsimple":
-  119.156 ops/s
+  68.674 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -586,22 +586,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.jsonsimple":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.minimaljson
 
-# Run progress: 75.00% complete, ETA 00:01:44
+# Run progress: 75.00% complete, ETA 00:01:47
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3500687019590 as seed for Random
-154.328 ops/s
-Iteration   1: 234.666 ops/s
-Iteration   2: 229.564 ops/s
+# Warmup Iteration   1: Using SEED=3533613386433 as seed for Random
+87.657 ops/s
+Iteration   1: 169.108 ops/s
+Iteration   2: 166.118 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.minimaljson":
-  232.115 ops/s
+  167.613 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -610,22 +610,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.minimaljson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.mjson
 
-# Run progress: 78.13% complete, ETA 00:01:31
+# Run progress: 78.13% complete, ETA 00:01:34
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3513797535764 as seed for Random
-41.217 ops/s
-Iteration   1: 64.492 ops/s
-Iteration   2: 71.536 ops/s
+# Warmup Iteration   1: Using SEED=3547211050747 as seed for Random
+27.498 ops/s
+Iteration   1: 44.976 ops/s
+Iteration   2: 43.729 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.mjson":
-  68.014 ops/s
+  44.353 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -634,22 +634,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.mjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.moshi
 
-# Run progress: 81.25% complete, ETA 00:01:18
+# Run progress: 81.25% complete, ETA 00:01:21
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3527245572419 as seed for Random
-143.275 ops/s
-Iteration   1: 286.438 ops/s
-Iteration   2: 288.579 ops/s
+# Warmup Iteration   1: Using SEED=3561255932373 as seed for Random
+39.379 ops/s
+Iteration   1: 90.855 ops/s
+Iteration   2: 92.200 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.moshi":
-  287.508 ops/s
+  91.527 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -658,22 +658,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.moshi":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.nanojson
 
-# Run progress: 84.38% complete, ETA 00:01:05
+# Run progress: 84.38% complete, ETA 00:01:07
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3540259149692 as seed for Random
-232.870 ops/s
-Iteration   1: 271.996 ops/s
-Iteration   2: 269.868 ops/s
+# Warmup Iteration   1: Using SEED=3575002103136 as seed for Random
+163.952 ops/s
+Iteration   1: 214.473 ops/s
+Iteration   2: 226.611 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.nanojson":
-  270.932 ops/s
+  220.542 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -682,22 +682,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.nanojson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.orgjson
 
-# Run progress: 87.50% complete, ETA 00:00:52
+# Run progress: 87.50% complete, ETA 00:00:54
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3553382583479 as seed for Random
-58.164 ops/s
-Iteration   1: 73.056 ops/s
-Iteration   2: 73.420 ops/s
+# Warmup Iteration   1: Using SEED=3588350266190 as seed for Random
+39.896 ops/s
+Iteration   1: 54.337 ops/s
+Iteration   2: 52.662 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.orgjson":
-  73.238 ops/s
+  53.500 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -706,22 +706,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.orgjson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.purejson
 
-# Run progress: 90.63% complete, ETA 00:00:39
+# Run progress: 90.63% complete, ETA 00:00:40
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3566782692349 as seed for Random
-58.387 ops/s
-Iteration   1: 73.157 ops/s
-Iteration   2: 75.597 ops/s
+# Warmup Iteration   1: Using SEED=3602260168073 as seed for Random
+33.134 ops/s
+Iteration   1: 44.735 ops/s
+Iteration   2: 45.986 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.purejson":
-  74.377 ops/s
+  45.360 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -730,22 +730,22 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.purejson":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.github.fabienrenaud.jjb.stream.Deserialization.tapestry
 
-# Run progress: 93.75% complete, ETA 00:00:26
+# Run progress: 93.75% complete, ETA 00:00:27
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3580243893426 as seed for Random
-255.330 ops/s
-Iteration   1: 373.307 ops/s
-Iteration   2: 390.978 ops/s
+# Warmup Iteration   1: Using SEED=3616407062230 as seed for Random
+162.636 ops/s
+Iteration   1: 237.493 ops/s
+Iteration   2: 238.978 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.tapestry":
-  382.143 ops/s
+  238.235 ops/s
 
 
 # JMH version: 1.35
 # VM version: JDK 17.0.6, OpenJDK 64-Bit Server VM, 17.0.6+10
 # VM invoker: /usr/lib/jvm/temurin-17-jdk-amd64/bin/java
-# VM options: -Xms2g -Xmx2g
+# VM options: -Xms2g -Xmx2g --add-opens=java.base/java.time=ALL-UNNAMED
 # Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: 1 iterations, 10 s each
 # Measurement: 2 iterations, 1 s each
@@ -756,17 +756,17 @@ Result "com.github.fabienrenaud.jjb.stream.Deserialization.tapestry":
 
 # Run progress: 96.88% complete, ETA 00:00:13
 # Fork: 1 of 1
-# Warmup Iteration   1: Using SEED=3593314304640 as seed for Random
-193.957 ops/s
-Iteration   1: 283.095 ops/s
-Iteration   2: 279.300 ops/s
+# Warmup Iteration   1: Using SEED=3629938476774 as seed for Random
+147.161 ops/s
+Iteration   1: 209.947 ops/s
+Iteration   2: 217.859 ops/s
 
 
 Result "com.github.fabienrenaud.jjb.stream.Deserialization.underscore_java":
-  281.197 ops/s
+  213.903 ops/s
 
 
-# Run complete. Total time: 00:07:00
+# Run complete. Total time: 00:07:13
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -781,35 +781,35 @@ different JVMs are already problematic, the performance difference caused by dif
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
 Benchmark                                              Mode  Cnt    Score   Error  Units
-c.g.f.j.databind.Deserialization.avajejsonb           thrpt    2  631.355          ops/s
-c.g.f.j.databind.Deserialization.avajejsonb_jackson   thrpt    2  481.488          ops/s
-c.g.f.j.databind.Deserialization.dsljson              thrpt    2  768.255          ops/s
-c.g.f.j.databind.Deserialization.dsljson_reflection   thrpt    2  596.302          ops/s
-c.g.f.j.databind.Deserialization.fastjson             thrpt    2  316.149          ops/s
-c.g.f.j.databind.Deserialization.flexjson             thrpt    2   52.518          ops/s
-c.g.f.j.databind.Deserialization.genson               thrpt    2  369.661          ops/s
-c.g.f.j.databind.Deserialization.gson                 thrpt    2  395.408          ops/s
-c.g.f.j.databind.Deserialization.jackson              thrpt    2  447.315          ops/s
-c.g.f.j.databind.Deserialization.jackson_afterburner  thrpt    2  541.268          ops/s
-c.g.f.j.databind.Deserialization.jackson_blackbird    thrpt    2  513.616          ops/s
-c.g.f.j.databind.Deserialization.jodd                 thrpt    2  349.376          ops/s
-c.g.f.j.databind.Deserialization.johnzon              thrpt    2   82.274          ops/s
-c.g.f.j.databind.Deserialization.jsonsmart            thrpt    2  459.453          ops/s
-c.g.f.j.databind.Deserialization.logansquare          thrpt    2  488.802          ops/s
-c.g.f.j.databind.Deserialization.moshi                thrpt    2  299.921          ops/s
-c.g.f.j.databind.Deserialization.qson                 thrpt    2  454.007          ops/s
-c.g.f.j.databind.Deserialization.yasson               thrpt    2   68.844          ops/s
-c.g.f.j.stream.Deserialization.genson                 thrpt    2  450.284          ops/s
-c.g.f.j.stream.Deserialization.gson                   thrpt    2  291.546          ops/s
-c.g.f.j.stream.Deserialization.jackson                thrpt    2  519.095          ops/s
-c.g.f.j.stream.Deserialization.javaxjson              thrpt    2  283.301          ops/s
-c.g.f.j.stream.Deserialization.jsonio                 thrpt    2   65.215          ops/s
-c.g.f.j.stream.Deserialization.jsonsimple             thrpt    2  119.156          ops/s
-c.g.f.j.stream.Deserialization.minimaljson            thrpt    2  232.115          ops/s
-c.g.f.j.stream.Deserialization.mjson                  thrpt    2   68.014          ops/s
-c.g.f.j.stream.Deserialization.moshi                  thrpt    2  287.508          ops/s
-c.g.f.j.stream.Deserialization.nanojson               thrpt    2  270.932          ops/s
-c.g.f.j.stream.Deserialization.orgjson                thrpt    2   73.238          ops/s
-c.g.f.j.stream.Deserialization.purejson               thrpt    2   74.377          ops/s
-c.g.f.j.stream.Deserialization.tapestry               thrpt    2  382.143          ops/s
-c.g.f.j.stream.Deserialization.underscore_java        thrpt    2  281.197          ops/s
+c.g.f.j.databind.Deserialization.avajejsonb           thrpt    2  508.520          ops/s
+c.g.f.j.databind.Deserialization.avajejsonb_jackson   thrpt    2  375.928          ops/s
+c.g.f.j.databind.Deserialization.dsljson              thrpt    2  567.038          ops/s
+c.g.f.j.databind.Deserialization.dsljson_reflection   thrpt    2  451.770          ops/s
+c.g.f.j.databind.Deserialization.fastjson             thrpt    2  584.288          ops/s
+c.g.f.j.databind.Deserialization.flexjson             thrpt    2   37.061          ops/s
+c.g.f.j.databind.Deserialization.genson               thrpt    2  292.150          ops/s
+c.g.f.j.databind.Deserialization.gson                 thrpt    2  282.062          ops/s
+c.g.f.j.databind.Deserialization.jackson              thrpt    2  351.650          ops/s
+c.g.f.j.databind.Deserialization.jackson_afterburner  thrpt    2  416.316          ops/s
+c.g.f.j.databind.Deserialization.jackson_blackbird    thrpt    2  394.509          ops/s
+c.g.f.j.databind.Deserialization.jodd                 thrpt    2  276.803          ops/s
+c.g.f.j.databind.Deserialization.johnzon              thrpt    2   60.961          ops/s
+c.g.f.j.databind.Deserialization.jsonsmart            thrpt    2  360.019          ops/s
+c.g.f.j.databind.Deserialization.logansquare          thrpt    2  380.884          ops/s
+c.g.f.j.databind.Deserialization.moshi                thrpt    2  212.851          ops/s
+c.g.f.j.databind.Deserialization.qson                 thrpt    2  322.422          ops/s
+c.g.f.j.databind.Deserialization.yasson               thrpt    2  167.980          ops/s
+c.g.f.j.stream.Deserialization.genson                 thrpt    2  295.740          ops/s
+c.g.f.j.stream.Deserialization.gson                   thrpt    2  244.873          ops/s
+c.g.f.j.stream.Deserialization.jackson                thrpt    2  368.646          ops/s
+c.g.f.j.stream.Deserialization.jakartajson            thrpt    2  160.119          ops/s
+c.g.f.j.stream.Deserialization.jsonio                 thrpt    2   46.118          ops/s
+c.g.f.j.stream.Deserialization.jsonsimple             thrpt    2   68.674          ops/s
+c.g.f.j.stream.Deserialization.minimaljson            thrpt    2  167.613          ops/s
+c.g.f.j.stream.Deserialization.mjson                  thrpt    2   44.353          ops/s
+c.g.f.j.stream.Deserialization.moshi                  thrpt    2   91.527          ops/s
+c.g.f.j.stream.Deserialization.nanojson               thrpt    2  220.542          ops/s
+c.g.f.j.stream.Deserialization.orgjson                thrpt    2   53.500          ops/s
+c.g.f.j.stream.Deserialization.purejson               thrpt    2   45.360          ops/s
+c.g.f.j.stream.Deserialization.tapestry               thrpt    2  238.235          ops/s
+c.g.f.j.stream.Deserialization.underscore_java        thrpt    2  213.903          ops/s
